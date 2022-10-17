@@ -1,7 +1,12 @@
+
 $(document).ready(function() {
     $('#gnb > li').hover(function() {
-        $('.submenu').stop().slideDown();
+        $('.submenu', this).stop().slideDown();
     }, function() {
-        $('.submenu').stop().slideUp();
+        $('.submenu', this).stop().slideUp();
     });
 });
+
+
+
+

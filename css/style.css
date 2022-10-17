@@ -26,14 +26,13 @@ header {
 
 #gnb {
     display: flex;
-    /* column-gap: 11rem;
-    padding-left: 170px; */
     margin-top: 20px;
+    margin-left: 25px;
 }
 
 #gnb > li {
     padding-right: 2rem;
-    margin-left: 170px;
+    margin-left: 121px;
     text-align: center;
     list-style: none;
 }
@@ -41,6 +40,8 @@ header {
 #gnb > li > a {
     font-weight: bold;
     display: block;
+    width: 165px;
+    height: 30px;
 }
 
 #gnb > li > a:hover {
@@ -50,7 +51,6 @@ header {
 
 .submenu {
     display: none;
-    /* visibility: hidden; */
 }
 
 .submenu a {
@@ -64,6 +64,6 @@ header {
     transition-duration: .4s;
 }
 
-.submenu > a:hover {
+.submenu li > a:hover {
     color: #8bb929;
 }
