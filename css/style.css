@@ -1,0 +1,69 @@
+@charset "utf-8";
+
+* {margin: 0; padding: 0; box-sizing: border-box;}
+a:link, a:visited {color: inherit; text-decoration: none;}
+div ul {list-style: none;}
+
+body {
+    font-family: "나눔스퀘어";
+}
+
+/***************** header *****************/
+
+header {
+    width: 1400px;
+    margin: 0 auto;
+    padding-top: 34px;
+}
+
+#headline {
+    display: flex;
+}
+
+.logo > a > img {
+    width: 104px;
+}
+
+#gnb {
+    display: flex;
+    /* column-gap: 11rem;
+    padding-left: 170px; */
+    margin-top: 20px;
+}
+
+#gnb > li {
+    padding-right: 2rem;
+    margin-left: 170px;
+    text-align: center;
+    list-style: none;
+}
+
+#gnb > li > a {
+    font-weight: bold;
+    display: block;
+}
+
+#gnb > li > a:hover {
+    color: #8bb929;
+    border-bottom: solid 4px #8bb929;
+}
+
+.submenu {
+    display: none;
+    /* visibility: hidden; */
+}
+
+.submenu a {
+    display: block;
+    color: #222222;
+    background: #fff;
+    line-height: 20px;
+    padding-top: 15px;
+    margin-top: 20px;
+    text-align: center;
+    transition-duration: .4s;
+}
+
+.submenu > a:hover {
+    color: #8bb929;
+}
