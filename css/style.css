@@ -14,56 +14,224 @@ header {
     width: 1400px;
     margin: 0 auto;
     padding-top: 34px;
+    position: relative;
+    margin-bottom: 60px;
 }
 
 #headline {
     display: flex;
+    position: absolute;
+    z-index: 2;
 }
 
 .logo > a > img {
     width: 104px;
 }
 
+/***************** 상단메뉴 *****************/
+
 #gnb {
     display: flex;
     margin-top: 20px;
     margin-left: 25px;
+    width: 1400px;
+    list-style: none;
+    justify-content: space-evenly;
 }
 
 #gnb > li {
-    padding-right: 2rem;
-    margin-left: 121px;
+    /* padding-right: 2rem; */
+    /* margin-left: 100px; */
     text-align: center;
     list-style: none;
+    display: block;
 }
 
 #gnb > li > a {
     font-weight: bold;
     display: block;
-    width: 165px;
     height: 30px;
+    text-align: center;
+    width: 195px;
+    margin-left: 5px;
 }
 
-#gnb > li > a:hover {
-    color: #8bb929;
-    border-bottom: solid 4px #8bb929;
+#gnb li > a::after {
+    display: block;
+    content: "";
+    border-bottom: 3px solid #8bb929;
+    transform: scaleX(0);
+    transition: transform 250ms ease-in-out;
 }
+
+#gnb li > a:hover::after {
+   transform: scaleX(1);
+}
+
+/***************** 서브메뉴 *****************/
 
 .submenu {
     display: none;
+    width: 200px;
+    background: #fff;
+    height: 200px;
 }
 
 .submenu a {
     display: block;
     color: #222222;
-    background: #fff;
-    line-height: 20px;
+    line-height: 30px;
     padding-top: 15px;
-    margin-top: 20px;
     text-align: center;
     transition-duration: .4s;
 }
 
-.submenu li > a:hover {
-    color: #8bb929;
+.submenu > li {
+    display: flex;
+    justify-content: center;
+}
+
+.submenu > li > a {
+    text-align: center;
+    width: 125px;
+}
+
+.submenu li > a::after {
+    display: block;
+    content: "";
+    border-bottom: 1px solid #8bb929;
+    transform: scaleX(0);
+    transition: transform 250ms ease-in-out;
+}
+
+.submenu li > a:hover::after {
+   transform: scaleX(1);
+}
+
+.submenu-3 {
+    width: 200px;
+    background: #fff;
+    height: 300px;
+}
+
+.submenu-3 a {
+    display: block;
+    color: #222222;
+    line-height: 30px;
+    padding-top: 15px;
+    text-align: center;
+    transition-duration: .4s;
+}
+
+.submenu-3 > li {
+    display: flex;
+    justify-content: center;
+}
+
+.submenu-3 > li > a {
+    text-align: center;
+    width: 125px;
+}
+
+.submenu-3 li > a::after {
+    display: block;
+    content: "";
+    border-bottom: 1px solid #8bb929;
+    transform: scaleX(0);
+    transition: transform 250ms ease-in-out;
+}
+
+.submenu-3 li > a:hover::after {
+   transform: scaleX(1);
+}
+
+/***************** 배너 *****************/
+
+#banner {
+    position: relative;
+    overflow: hidden;
+}
+
+#banner > a > img{
+    width: 2560px;
+}
+
+#banner > h2 {
+    position: absolute;
+    color: #000;
+}
+
+/***************** product *****************/
+
+#product {
+    width: 1400px;
+    margin: 0 auto;
+    height: 790px;
+    background: #ededed;
+    margin-top: 200px;
+}
+
+#product > h3 {
+    text-align: center;
+    font-weight: 800;
+    font-size: 52px;
+    color: #222222;
+    padding-top: 35px;
+    border-bottom: 5px solid #214ea1;
+    width: 260px;
+    margin: 0 auto;
+}
+
+#gaslock {
+    display: flex;
+    list-style: none;
+}
+
+#gaslock > li {
+    display: block;
+    background: #fff;
+    width: 440px;
+    height: 460px;
+    margin: 25px 0 0 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+#gaslock img {
+    width: 380px;
+    height: 400px;
+    margin: 30px 30px;
+}
+
+#text-box {
+    display: flex;
+    list-style: none;
+}
+
+#text-box > li {
+    display: block;
+    background: #d1d1d1;
+    width: 440px;
+    height: 170px;
+    margin: 0 0 0 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: center;
+}
+
+.text-1 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.text-2 {
+    font-size: 51px;
+    font-weight: 800;
+}
+
+.text-3 {
+    font-size: 22px;
+    text-align: center;
+
 }
