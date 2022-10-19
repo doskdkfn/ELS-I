@@ -182,6 +182,8 @@ header {
     margin: 0 auto;
 }
 
+/***************** gaslock *****************/
+
 #gaslock {
     display: flex;
     list-style: none;
@@ -197,11 +199,25 @@ header {
     border-top-right-radius: 20px;
 }
 
-#gaslock img {
-    width: 380px;
-    height: 400px;
-    margin: 30px 30px;
+.button {
+    text-align: center;
+    border: 2px solid #bbb;
+    width: 70px;
+    height: 30px;
+    margin-left: 325px;
+    margin-top: 25px;
+    padding: 5px 5px;
+    border-radius: 10px;
+    color: rgb(133, 130, 130);
 }
+
+#gaslock img {
+    width: 325px;
+    height: 320px;
+    margin: 25px 55px;
+}
+
+/***************** text-box *****************/
 
 #text-box {
     display: flex;
@@ -220,18 +236,134 @@ header {
 }
 
 .text-1 {
-    font-size: 32px;
+    font-size: 27px;
     font-weight: 700;
     margin-top: 20px;
 }
 
 .text-2 {
-    font-size: 51px;
+    font-size: 45px;
     font-weight: 800;
 }
 
 .text-3 {
-    font-size: 22px;
+    font-size: 20px;
     text-align: center;
+}
 
+/***************** notice-backgound *****************/
+
+#noctice-back {
+    width: 2560px;
+    height: 500px;
+    background: #ededed;
+    margin-top: 200px;
+}
+
+/***************** notice *****************/
+
+#notice-box {
+    display: flex;
+    width: 1400px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.notice {
+    width: 470px;
+    height: 460px;
+    background: #fff;
+}
+
+.notice-1 {
+    display: flex;
+    margin: 35px 37px;
+}
+
+.notice-1 > h4 {
+    width: 115px;
+    font-size: 25px;
+    font-weight: 700;
+    border-bottom: 5px solid #214ea1;
+}
+
+.notice-button {
+    text-align: center;
+    border: 2px solid #bbb;
+    width: 70px;
+    height: 30px;
+    padding: 5px 5px;
+    border-radius: 10px;
+    color: rgb(133, 130, 130);
+    margin-left: 200px;
+}
+
+.notice-2 {
+    display: flex;
+    margin-left: 17px;
+    margin-top: 70px;
+}
+
+.num {
+    list-style: none;
+    margin-left: 157px;
+}
+
+/***************** guide *****************/
+
+.guide {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+/* .guide > li {
+    width: 416px;
+    height: 140px;
+    background: #fff;
+    list-style: none;
+    margin: 0 10px 20px;
+    overflow: hidden;
+} */
+
+.guide-1 {
+    width: 416px;
+    height: 140px;
+    background: #fff;
+    list-style: none;
+    margin: 0 10px 20px;
+    /* overflow: hidden; */
+    display: flex;
+}
+
+.guide-1 img {
+
+}
+
+.guide-2 {
+    width: 416px;
+    height: 140px;
+    background: #fff;
+    list-style: none;
+    margin: 0 10px 20px;
+    overflow: hidden;
+    display: flex;
+}
+
+.guide-3 {
+    width: 416px;
+    height: 140px;
+    background: #fff;
+    list-style: none;
+    margin: 0 10px 20px;
+    overflow: hidden;
+    display: flex;
+}
+
+
+/***************** client *****************/
+
+.client {
+    width: 470px;
+    height: 460px;
+    background: #fff;
 }
