@@ -1,8 +1,20 @@
 @charset "utf-8";
 
-* {margin: 0; padding: 0; box-sizing: border-box;}
-a:link, a:visited {color: inherit; text-decoration: none;}
-div ul {list-style: none;}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a:link,
+a:visited {
+    color: inherit;
+    text-decoration: none;
+}
+
+div ul {
+    list-style: none;
+}
 
 body {
     font-family: "나눔스퀘어";
@@ -24,7 +36,7 @@ header {
     z-index: 2;
 }
 
-.logo > a > img {
+.logo>a>img {
     width: 104px;
 }
 
@@ -33,13 +45,13 @@ header {
 #gnb {
     display: flex;
     margin-top: 20px;
-    margin-left: 25px;
+    margin-left: 180px;
     width: 1400px;
     list-style: none;
-    justify-content: space-evenly;
+    column-gap: 7rem;
 }
 
-#gnb > li {
+#gnb>li {
     /* padding-right: 2rem; */
     /* margin-left: 100px; */
     text-align: center;
@@ -47,7 +59,7 @@ header {
     display: block;
 }
 
-#gnb > li > a {
+#gnb>li>a {
     font-weight: bold;
     display: block;
     height: 30px;
@@ -56,7 +68,7 @@ header {
     margin-left: 5px;
 }
 
-#gnb li > a::after {
+#gnb li>a::after {
     display: block;
     content: "";
     border-bottom: 3px solid #8bb929;
@@ -64,8 +76,8 @@ header {
     transition: transform 250ms ease-in-out;
 }
 
-#gnb li > a:hover::after {
-   transform: scaleX(1);
+#gnb li>a:hover::after {
+    transform: scaleX(1);
 }
 
 /***************** 서브메뉴 *****************/
@@ -86,17 +98,17 @@ header {
     transition-duration: .4s;
 }
 
-.submenu > li {
+.submenu>li {
     display: flex;
     justify-content: center;
 }
 
-.submenu > li > a {
+.submenu>li>a {
     text-align: center;
     width: 125px;
 }
 
-.submenu li > a::after {
+.submenu li>a::after {
     display: block;
     content: "";
     border-bottom: 1px solid #8bb929;
@@ -104,8 +116,8 @@ header {
     transition: transform 250ms ease-in-out;
 }
 
-.submenu li > a:hover::after {
-   transform: scaleX(1);
+.submenu li>a:hover::after {
+    transform: scaleX(1);
 }
 
 .submenu-3 {
@@ -123,17 +135,17 @@ header {
     transition-duration: .4s;
 }
 
-.submenu-3 > li {
+.submenu-3>li {
     display: flex;
     justify-content: center;
 }
 
-.submenu-3 > li > a {
+.submenu-3>li>a {
     text-align: center;
     width: 125px;
 }
 
-.submenu-3 li > a::after {
+.submenu-3 li>a::after {
     display: block;
     content: "";
     border-bottom: 1px solid #8bb929;
@@ -141,8 +153,8 @@ header {
     transition: transform 250ms ease-in-out;
 }
 
-.submenu-3 li > a:hover::after {
-   transform: scaleX(1);
+.submenu-3 li>a:hover::after {
+    transform: scaleX(1);
 }
 
 /***************** 배너 *****************/
@@ -152,11 +164,11 @@ header {
     overflow: hidden;
 }
 
-#banner > a > img{
+#banner>a>img {
     width: 2560px;
 }
 
-#banner > h2 {
+#banner>h2 {
     position: absolute;
     color: #000;
 }
@@ -171,7 +183,7 @@ header {
     margin-top: 200px;
 }
 
-#product > h3 {
+#product>h3 {
     text-align: center;
     font-weight: 800;
     font-size: 52px;
@@ -189,7 +201,7 @@ header {
     list-style: none;
 }
 
-#gaslock > li {
+#gaslock>li {
     display: block;
     background: #fff;
     width: 440px;
@@ -211,6 +223,12 @@ header {
     color: rgb(133, 130, 130);
 }
 
+.button:hover {
+    background: #8bb929;
+    border: 2px solid #8bb929;
+    color: #fff;
+}
+
 #gaslock img {
     width: 325px;
     height: 320px;
@@ -224,7 +242,7 @@ header {
     list-style: none;
 }
 
-#text-box > li {
+#text-box>li {
     display: block;
     background: #d1d1d1;
     width: 440px;
@@ -254,7 +272,7 @@ header {
 /***************** notice-backgound *****************/
 
 #noctice-back {
-    width: 2560px;
+    width: 2543px;
     height: 500px;
     background: #ededed;
     margin-top: 200px;
@@ -273,6 +291,7 @@ header {
     width: 470px;
     height: 460px;
     background: #fff;
+    margin-right: 13px;
 }
 
 .notice-1 {
@@ -280,7 +299,7 @@ header {
     margin: 35px 37px;
 }
 
-.notice-1 > h4 {
+.notice-1>h4 {
     width: 115px;
     font-size: 25px;
     font-weight: 700;
@@ -298,6 +317,12 @@ header {
     margin-left: 200px;
 }
 
+.notice-button:hover {
+    background: #8bb929;
+    border: 2px solid #8bb929;
+    color: #fff;
+}
+
 .notice-2 {
     display: flex;
     margin-left: 17px;
@@ -313,7 +338,7 @@ header {
 
 .guide {
     margin-left: 5px;
-    margin-right: 5px;
+    margin-right: 20px;
 }
 
 /* .guide > li {
@@ -366,11 +391,11 @@ header {
 }
 
 .client-text {
-    width: 365px;
+    width: 355px;
     margin: 0 auto;
 }
 
-.client-text > h4 {
+.client-text>h4 {
     width: 115px;
     font-size: 25px;
     font-weight: 700;
@@ -378,6 +403,840 @@ header {
     margin-top: 35px;
 }
 
+/***************** number *****************/
+
 .munber {
     margin-top: 30px;
+}
+
+.cli {
+    font-size: 22px;
+    margin-top: 60px;
+    margin-left: 5px;
+}
+
+.numbers {
+    font-size: 60px;
+    font-weight: 800;
+}
+
+/***************** time *****************/
+
+.time {
+    width: 358px;
+    margin: 0 auto;
+}
+
+.runing-time {
+    font-size: 22px;
+    margin-top: 50px;
+    margin-left: 5px;
+}
+
+.ex {
+    font-size: 22px;
+    margin-left: 95px;
+    margin-top: 3px;
+}
+
+/***************** lunch-time *****************/
+
+.lunch-time {
+    font-size: 22px;
+    margin-top: 55px;
+    margin-left: 5px;
+}
+
+/***************** footer *****************/
+
+.footer {
+    margin-top: 125px;
+}
+
+.footer-line {
+    border-top: 1px solid #837e7e;
+    border-bottom: 1px solid #837e7e;
+    padding: 10px 10px;
+}
+
+.footer-menu {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    width: 1400px;
+    margin-left: 790px;
+}
+
+.company {
+    font-weight: bold;
+}
+
+.footer-menu>li {
+    display: block;
+    padding: 0 80px;
+}
+
+.manager {
+    margin-left: 140px;
+}
+
+/***************** footer - logo *****************/
+
+.logo-info {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.f-box {
+    margin-top: 30px;
+    display: flex;
+}
+
+.flogo>a>img {
+    width: 104px;
+}
+
+.info {
+    list-style: none;
+    margin-left: 335px;
+}
+
+.info>li {
+    line-height: 23px;
+    font-size: 15px;
+}
+
+/***************** top - btn *****************/
+
+.top-btn {
+    position: absolute;
+    right: 50px;
+    bottom: -1375px;
+}
+
+.top-btn>a>img {
+    width: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/********************************************************** 반응형 ****************************************************/
+
+@media screen and (max-width: 1920px) {
+    * {
+        box-sizing: border-box;
+        outline: none;
+        font-size: 16px;
+        font-family: "나눔스퀘어";
+    }
+
+    a,
+    a:link,
+    a:visited {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    body {
+        max-height: 100%;
+        min-width: 100%;
+        overflow-x: hidden;
+    }
+
+    /******************** header ******************/
+
+    header {
+        max-width: 100%;
+        min-width: 100%;
+        height: 30px;
+    }
+
+    .logo {
+        padding: 10px 0;
+    }
+
+    .logo>a>img {
+        max-width: 100%;
+        min-width: 100%;
+    }
+
+    #headline {
+        max-width: 100%;
+        min-width: 100%;
+        height: 30px;
+        margin-left: 250px;
+        column-gap: 1rem;
+    }
+
+    /******************** header menu ******************/
+
+    #gnb {
+        width: 100%;
+        height: 100%;
+    }
+
+    /******************** section******************/
+
+    section {
+        max-width: 100%;
+        min-width: 100%;
+    }
+
+    #banner {
+        position: relative;
+        overflow: hidden;
+    }
+
+    #banner>a>img {
+        max-width: 100%;
+        min-width: 100%;
+    }
+
+    #noctice-back {
+        max-width: 100%;
+        min-width: 100%;
+    }
+
+    #noctice-box {
+        max-width: 100%;
+        min-width: 100%;
+    }
+
+    /***************** product *****************/
+
+    #product {
+        width: 1400px;
+        margin: 0 auto;
+        height: 790px;
+        background: #ededed;
+        margin-top: 200px;
+    }
+
+    #product>h3 {
+        text-align: center;
+        font-weight: 800;
+        font-size: 35px;
+        color: #222222;
+        padding-top: 35px;
+        border-bottom: 5px solid #214ea1;
+        width: 220px;
+        margin: 0 auto;
+    }
+
+    /***************** gaslock *****************/
+
+    #gaslock {
+        display: flex;
+        list-style: none;
+    }
+
+    #gaslock>li {
+        display: block;
+        background: #fff;
+        width: 440px;
+        height: 460px;
+        margin: 25px 0 0 20px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+
+    .button {
+        text-align: center;
+        border: 2px solid #bbb;
+        width: 70px;
+        height: 30px;
+        margin-left: 325px;
+        margin-top: 25px;
+        padding: 6px 10px;
+        border-radius: 10px;
+        color: rgb(133, 130, 130);
+    }
+
+    .button:hover {
+        background: #8bb929;
+        border: 2px solid #8bb929;
+        color: #fff;
+    }
+
+    #gaslock img {
+        width: 300px;
+        height: 290px;
+        margin: 30px 60px;
+    }
+
+    /***************** text-box *****************/
+
+    #text-box {
+        display: flex;
+        list-style: none;
+    }
+
+    #text-box>li {
+        display: block;
+        background: #d1d1d1;
+        width: 440px;
+        height: 170px;
+        margin: 0 0 0 20px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        text-align: center;
+    }
+
+    .text-1 {
+        font-size: 23px;
+        font-weight: 700;
+        margin-top: 20px;
+    }
+
+    .text-2 {
+        font-size: 40px;
+        font-weight: 800;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .text-3 {
+        font-size: 17px;
+        text-align: center;
+    }
+
+    /***************** notice-backgound *****************/
+
+    #noctice-back {
+        width: 2543px;
+        height: 500px;
+        background: #ededed;
+        margin-top: 200px;
+    }
+
+    /***************** notice *****************/
+
+    #notice-box {
+        display: flex;
+        width: 1400px;
+        margin: 0 auto;
+        padding-top: 20px;
+    }
+
+    .notice {
+        width: 470px;
+        height: 460px;
+        background: #fff;
+        margin-right: 13px;
+    }
+
+    .notice-1 {
+        display: flex;
+        margin: 35px 37px;
+    }
+
+    .notice-1>h4 {
+        width: 100px;
+        font-size: 23px;
+        font-weight: 700;
+        border-bottom: 5px solid #214ea1;
+    }
+
+    .notice-button {
+        text-align: center;
+        border: 2px solid #bbb;
+        width: 70px;
+        height: 30px;
+        padding: 5px 5px;
+        border-radius: 10px;
+        color: rgb(133, 130, 130);
+        margin-left: 215px;
+    }
+
+    .notice-button:hover {
+        background: #8bb929;
+        border: 2px solid #8bb929;
+        color: #fff;
+    }
+
+    .notice-2 {
+        display: flex;
+        margin-left: 17px;
+        margin-top: 70px;
+    }
+
+    .num {
+        list-style: none;
+        margin-left: 157px;
+    }
+
+    /***************** client *****************/
+
+    .client {
+        width: 470px;
+        height: 460px;
+        background: #fff;
+        list-style: none;
+    }
+
+    .client-text {
+        width: 350px;
+        margin: 0 auto;
+    }
+
+    .client-text>h4 {
+        width: 100px;
+        font-size: 23px;
+        font-weight: 700;
+        border-bottom: 5px solid #214ea1;
+        margin-top: 35px;
+    }
+
+    /***************** number *****************/
+
+    .munber {
+        margin-top: 30px;
+    }
+
+    .cli {
+        font-size: 20px;
+        margin-top: 60px;
+        margin-left: 5px;
+    }
+
+    .numbers {
+        font-size: 55px;
+        font-weight: 800;
+    }
+
+    /***************** time *****************/
+
+    .time {
+        width: 358px;
+        margin: 0 auto;
+    }
+
+    .runing-time {
+        font-size: 20px;
+        margin-top: 50px;
+        margin-left: 5px;
+    }
+
+    .ex {
+        font-size: 20px;
+        margin-left: 95px;
+        margin-top: 3px;
+    }
+
+    /***************** lunch-time *****************/
+
+    .lunch-time {
+        font-size: 20px;
+        margin-top: 55px;
+        margin-left: 5px;
+    }
+
+    /***************** footer *****************/
+
+    .footer {
+        margin-top: 125px;
+    }
+
+    .footer-line {
+        border-top: 1px solid #837e7e;
+        border-bottom: 1px solid #837e7e;
+        padding: 10px 10px;
+        max-width: 100%;
+        min-width: 100%;
+    }
+
+    .footer-menu {
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        width: 1400px;
+        margin-left: 465px;
+    }
+
+    .company {
+        font-weight: bold;
+    }
+
+    .footer-menu>li {
+        display: block;
+        padding: 0 80px;
+    }
+
+    .manager {
+        margin-left: 140px;
+    }
+
+    /***************** footer - logo *****************/
+
+    .logo-info {
+        width: 1400px;
+        margin: 0 auto;
+    }
+
+    .f-box {
+        margin-top: 30px;
+        display: flex;
+    }
+
+    .flogo>a>img {
+        width: 104px;
+    }
+
+    .info {
+        list-style: none;
+        margin-left: 335px;
+    }
+
+    .info>li {
+        line-height: 23px;
+        font-size: 15px;
+    }
+
+    /***************** top - btn *****************/
+
+    .top-btn {
+        position: absolute;
+        right: 50px;
+        bottom: -1310px;
+    }
+
+    .top-btn>a>img {
+        width: 50px;
+        margin-bottom: 30px;
+    }
+
+}
+
+
+
+
+
+/********************************************************** 반응형 모바일 ****************************************************/
+
+@media screen and (min-width: 768px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    a:link,
+    a:visited {
+        color: inherit;
+        text-decoration: none;
+    }
+
+    div ul {
+        list-style: none;
+    }
+
+    body {
+        font-family: "나눔스퀘어";
+    }
+
+    /***************** header *****************/
+
+    header {
+        /* width: 768px; */
+        margin: 0 auto;
+        padding-top: 34px;
+        position: relative;
+        margin-bottom: 60px;
+    }
+
+    #headline {
+        display: flex;
+        position: absolute;
+        z-index: 2;
+        right: -10px;
+        top: 50px;
+    }
+
+    .logo {
+        margin-right: 300px;
+    }
+
+    .logo>a>img {
+        width: 65px;
+    }
+
+    /***************** 상단메뉴 *****************/
+
+    #gnb {
+        display: none;
+    }
+
+    #gnb>li {
+        /* padding-right: 2rem; */
+        /* margin-left: 100px; */
+        text-align: center;
+        list-style: none;
+        display: block;
+    }
+
+    #gnb>li>a {
+        font-weight: bold;
+        display: block;
+        height: 30px;
+        text-align: center;
+        width: 195px;
+        margin-left: 5px;
+    }
+
+    /***************** 배너 *****************/
+
+    #banner {
+        position: relative;
+        overflow: hidden;
+    }
+
+    #banner>a>img {
+        width: 768px;
+    }
+
+    /* #banner>h2 {
+        position: absolute;
+        color: #000;
+    } */
+
+    /***************** product *****************/
+
+    #product {
+        width: 768px;
+        margin: 0 auto;
+        height: 790px;
+        background: #ededed;
+        margin-top: 200px;
+    }
+
+    #product>h3 {
+        text-align: center;
+        font-weight: 800;
+        font-size: 30px;
+        color: #222222;
+        padding-top: 35px;
+        border-bottom: 3px solid #214ea1;
+        width: 190px;
+        margin: 0 auto;
+    }
+
+    /***************** gaslock *****************/
+
+    #gaslock {
+        display: flex;
+        list-style: none;
+    }
+
+    #gaslock>li {
+        display: block;
+        background: #fff;
+        width: 237px;
+        height: 210px;
+        margin: 25px 0 0 11px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+
+    .button {
+        text-align: center;
+        border: 2px solid #bbb;
+        width: 45px;
+        height: 20px;
+        margin-left: 155px;
+        margin-top: 25px;
+        padding: 4px 5px;
+        border-radius: 10px;
+        color: rgb(133, 130, 130);
+    }
+
+    .button>a>p {
+        font-size: 10px;
+    }
+
+
+    #gaslock img {
+        width: 160px;
+        height: 130px;
+        margin: 15px 30px;
+    }
+
+    /***************** text-box *****************/
+
+    #text-box {
+        display: flex;
+        list-style: none;
+        margin-right: 25px;
+    }
+
+    #text-box>li {
+        display: block;
+        background: #d1d1d1;
+        width: 440px;
+        height: 170px;
+        margin: 0 0 0 12px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        text-align: center;
+    }
+
+    .text-1 {
+        font-size: 20px;
+        font-weight: 700;
+        margin-top: 20px;
+    }
+
+    .text-2 {
+        font-size: 33px;
+        font-weight: 800;
+    }
+
+    .text-3 {
+        font-size: 13px;
+        text-align: center;
+    }
+
+    /***************** notice-backgound *****************/
+
+    #noctice-back {
+        width: 2543px;
+        height: 500px;
+        background: #ededed;
+        margin-top: 200px;
+    }
+
+    /***************** notice *****************/
+
+    #notice-box {
+        display: flex;
+        width: 768px;
+        margin: 0 auto;
+        padding-top: 20px;
+    }
+
+    .notice {
+        width: 470px;
+        height: 460px;
+        background: #fff;
+        margin-right: 13px;
+    }
+
+    .notice-1 {
+        display: flex;
+        margin: 35px 37px;
+    }
+
+    .notice-1>h4 {
+        width: 100px;
+        font-size: 23px;
+        font-weight: 700;
+        border-bottom: 5px solid #214ea1;
+    }
+
+    .notice-button {
+        text-align: center;
+        border: 2px solid #bbb;
+        width: 70px;
+        height: 30px;
+        padding: 5px 5px;
+        border-radius: 10px;
+        color: rgb(133, 130, 130);
+        margin-left: 215px;
+    }
+
+    .notice-button:hover {
+        background: #8bb929;
+        border: 2px solid #8bb929;
+        color: #fff;
+    }
+
+    .notice-2 {
+        display: flex;
+        margin-left: 17px;
+        margin-top: 70px;
+    }
+
+    .num {
+        list-style: none;
+        margin-left: 157px;
+    }
+
+    /***************** client *****************/
+
+    .client {
+        width: 470px;
+        height: 460px;
+        background: #fff;
+        list-style: none;
+    }
+
+    .client-text {
+        width: 350px;
+        margin: 0 auto;
+    }
+
+    .client-text>h4 {
+        width: 100px;
+        font-size: 23px;
+        font-weight: 700;
+        border-bottom: 5px solid #214ea1;
+        margin-top: 35px;
+    }
+
+    /***************** number *****************/
+
+    .munber {
+        margin-top: 30px;
+    }
+
+    .cli {
+        font-size: 20px;
+        margin-top: 60px;
+        margin-left: 5px;
+    }
+
+    .numbers {
+        font-size: 55px;
+        font-weight: 800;
+    }
+
+    /***************** time *****************/
+
+    .time {
+        width: 358px;
+        margin: 0 auto;
+    }
+
+    .runing-time {
+        font-size: 20px;
+        margin-top: 50px;
+        margin-left: 5px;
+    }
+
+    .ex {
+        font-size: 20px;
+        margin-left: 95px;
+        margin-top: 3px;
+    }
+
+    /***************** lunch-time *****************/
+
+    .lunch-time {
+        font-size: 20px;
+        margin-top: 55px;
+        margin-left: 5px;
+    }
 }
