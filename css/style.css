@@ -170,7 +170,10 @@ header {
 
 #banner>h2 {
     position: absolute;
-    color: #000;
+    color: #fff;
+    font-size: 60px;
+    top: 25%;
+    right: 55%;
 }
 
 /***************** product *****************/
@@ -358,6 +361,15 @@ header {
     margin: 0 10px 20px;
     /* overflow: hidden; */
     display: flex;
+    position: relative;
+}
+
+.guide-1 > li > a > p {
+    position: absolute;
+    right: 40px;
+    top: 41%;
+    font-size: 29px;
+    font-weight: 700;
 }
 
 .guide-2 {
@@ -368,6 +380,15 @@ header {
     margin: 0 10px 20px;
     overflow: hidden;
     display: flex;
+    position: relative;
+}
+
+.guide-2 > li > a > p {
+    position: absolute;
+    right: 245px;
+    top: 41%;
+    font-size: 29px;
+    font-weight: 700;
 }
 
 .guide-3 {
@@ -378,6 +399,15 @@ header {
     margin: 0 10px 20px;
     overflow: hidden;
     display: flex;
+    position: relative;
+}
+
+.guide-3 > li > a > p {
+    position: absolute;
+    right: 40px;
+    top: 41%;
+    font-size: 29px;
+    font-weight: 700;
 }
 
 
@@ -536,11 +566,11 @@ header {
 
 /********************************************************** 반응형 ****************************************************/
 
-@media screen and (max-width: 1920px) {
+@media screen and (max-width: 767px) {
     * {
         box-sizing: border-box;
         outline: none;
-        font-size: 16px;
+        font-size: 14px;
         font-family: "나눔스퀘어";
     }
 
@@ -552,41 +582,33 @@ header {
     }
 
     body {
-        max-height: 100%;
-        min-width: 100%;
-        overflow-x: hidden;
+        color: #333;
+        font-size: 16px;
+        font-family: "나눔스퀘어";
+        position: relative;
     }
 
-    /******************** header ******************/
+    /******************** m - header ******************/
 
     header {
         max-width: 100%;
-        min-width: 100%;
         height: 30px;
     }
 
     .logo {
-        padding: 10px 0;
+        padding: 25px 0 0 0;
+        margin-left: 10px;
     }
 
     .logo>a>img {
-        max-width: 100%;
-        min-width: 100%;
+        width: 65px;
     }
 
-    #headline {
-        max-width: 100%;
-        min-width: 100%;
-        height: 30px;
-        margin-left: 250px;
-        column-gap: 1rem;
-    }
 
     /******************** header menu ******************/
 
     #gnb {
-        width: 100%;
-        height: 100%;
+        display: none;
     }
 
     /******************** section******************/
@@ -596,62 +618,63 @@ header {
         min-width: 100%;
     }
 
+    /***************** m - banner *****************/
+
     #banner {
         position: relative;
         overflow: hidden;
     }
 
     #banner>a>img {
-        max-width: 100%;
-        min-width: 100%;
+        width: 483px;
+        height: 250px;
     }
 
-    #noctice-back {
-        max-width: 100%;
-        min-width: 100%;
+    #banner>h2 {
+        font-size: 14px;
+        right: 58%;
+        top: 32%;
     }
 
-    #noctice-box {
-        max-width: 100%;
-        min-width: 100%;
-    }
 
-    /***************** product *****************/
+    /***************** m - product *****************/
 
     #product {
-        width: 1400px;
-        margin: 0 auto;
+        width: 100%;
         height: 790px;
         background: #ededed;
-        margin-top: 200px;
+        margin: 0 auto;
+
     }
 
     #product>h3 {
         text-align: center;
         font-weight: 800;
-        font-size: 35px;
+        font-size: 23px;
         color: #222222;
         padding-top: 35px;
         border-bottom: 5px solid #214ea1;
-        width: 220px;
-        margin: 0 auto;
+        width: 150px;
+        margin-bottom: 25px;
     }
 
     /***************** gaslock *****************/
 
     #gaslock {
-        display: flex;
         list-style: none;
+        display: block;
     }
 
     #gaslock>li {
         display: block;
         background: #fff;
-        width: 440px;
-        height: 460px;
-        margin: 25px 0 0 20px;
-        border-top-left-radius: 20px;
-        border-top-right-radius: 20px;
+        width: 480px;
+        height: 200px;
+        margin: 0 0 7px 2px;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        position: relative;
+        padding: 2px 0 0 0px;
     }
 
     .button {
@@ -659,11 +682,13 @@ header {
         border: 2px solid #bbb;
         width: 70px;
         height: 30px;
-        margin-left: 325px;
-        margin-top: 25px;
+        margin-left: 18px;
+        margin-top: 157px;
         padding: 6px 10px;
         border-radius: 10px;
         color: rgb(133, 130, 130);
+        position: absolute;
+        z-index: 2;
     }
 
     .button:hover {
@@ -673,82 +698,101 @@ header {
     }
 
     #gaslock img {
-        width: 300px;
-        height: 290px;
-        margin: 30px 60px;
+        width: 130px;
+        height: 125px;
+        /* margin: 20px 320px; */
+        position: absolute;
+        right: -33px;
+        top: 21px;
     }
 
     /***************** text-box *****************/
 
     #text-box {
-        display: flex;
+        display: block;
         list-style: none;
+        position: absolute;
+        top: 480px;
+        z-index: 1;
     }
 
     #text-box>li {
         display: block;
-        background: #d1d1d1;
-        width: 440px;
-        height: 170px;
-        margin: 0 0 0 20px;
-        border-bottom-left-radius: 20px;
-        border-bottom-right-radius: 20px;
-        text-align: center;
+        background: rgba(255, 255, 255, 0);
+        width: 300px;
+        height: 140px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+        text-align: left;
     }
 
     .text-1 {
-        font-size: 23px;
+        font-size: 22px;
         font-weight: 700;
-        margin-top: 20px;
+        margin: 0;
     }
 
     .text-2 {
-        font-size: 40px;
+        font-size: 35px;
         font-weight: 800;
-        margin-top: 5px;
-        margin-bottom: 5px;
+        margin: 5px 0 5px 0;
     }
 
     .text-3 {
-        font-size: 17px;
-        text-align: center;
+        font-size: 15px;
+        text-align: left;
+        margin: 0;
+    }
+
+    .text {
+        margin-top: 10px;
+    }
+
+    .text2 {
+        margin-top: 50px;
+    }
+
+    .text3 {
+        margin-top: 70px;
     }
 
     /***************** notice-backgound *****************/
 
     #noctice-back {
-        width: 2543px;
-        height: 500px;
+        width: 100%;
+        height: 100%;
         background: #ededed;
-        margin-top: 200px;
+        margin-top: 0px;
     }
+
 
     /***************** notice *****************/
 
     #notice-box {
-        display: flex;
-        width: 1400px;
+        display: block;
+        width: 100%;
         margin: 0 auto;
         padding-top: 20px;
     }
 
     .notice {
-        width: 470px;
-        height: 460px;
+        width: 100%;
+        height: 150px;
         background: #fff;
         margin-right: 13px;
     }
 
     .notice-1 {
         display: flex;
-        margin: 35px 37px;
+        margin: -14px 37px;
     }
 
     .notice-1>h4 {
-        width: 100px;
-        font-size: 23px;
+        width: 90px;
+        font-size: 20px;
         font-weight: 700;
         border-bottom: 5px solid #214ea1;
+        margin-top: 20px;
     }
 
     .notice-button {
@@ -759,7 +803,8 @@ header {
         padding: 5px 5px;
         border-radius: 10px;
         color: rgb(133, 130, 130);
-        margin-left: 215px;
+        margin-left: 250px;
+        margin-top: 20px;
     }
 
     .notice-button:hover {
@@ -770,32 +815,38 @@ header {
 
     .notice-2 {
         display: flex;
-        margin-left: 17px;
-        margin-top: 70px;
+        margin-left: 40px;
+        margin-top: 50px;
+    }
+
+    .notice-2 > li {
+        font-size: 14px;
     }
 
     .num {
         list-style: none;
-        margin-left: 157px;
+        margin-left: 185px;
     }
 
     /***************** client *****************/
 
     .client {
-        width: 470px;
-        height: 460px;
+        width: 100%;
+        height: 210px;
         background: #fff;
         list-style: none;
     }
 
     .client-text {
-        width: 350px;
-        margin: 0 auto;
+        width: 420px;
+        margin: 0 20px;
+        padding-top: 5px;
+        padding-left: 15px;
     }
 
     .client-text>h4 {
-        width: 100px;
-        font-size: 23px;
+        width: 89px;
+        font-size: 20px;
         font-weight: 700;
         border-bottom: 5px solid #214ea1;
         margin-top: 35px;
@@ -804,51 +855,53 @@ header {
     /***************** number *****************/
 
     .munber {
-        margin-top: 30px;
+        margin-top: -30px;
     }
 
     .cli {
-        font-size: 20px;
+        font-size: 18px;
         margin-top: 60px;
-        margin-left: 5px;
+        margin-left: 0px;
+        font-weight: bold;
     }
 
     .numbers {
-        font-size: 55px;
-        font-weight: 800;
+        font-size: 36px;
+        font-weight: 900;
+        margin-left: -4px;
     }
 
     /***************** time *****************/
 
     .time {
-        width: 358px;
+        width: 420px;
         margin: 0 auto;
     }
 
     .runing-time {
-        font-size: 20px;
-        margin-top: 50px;
-        margin-left: 5px;
+        font-size: 18px;
+        margin-top: 30px;
+        margin-left: 0px;
     }
 
     .ex {
-        font-size: 20px;
-        margin-left: 95px;
+        font-size: 18px;
+        margin-left: 73px;
         margin-top: 3px;
     }
 
     /***************** lunch-time *****************/
 
     .lunch-time {
-        font-size: 20px;
-        margin-top: 55px;
-        margin-left: 5px;
+        font-size: 18px;
+        margin-top: 30px;
+        margin-left: 0px;
     }
 
     /***************** footer *****************/
 
     .footer {
-        margin-top: 125px;
+        margin-top: 100px;
     }
 
     .footer-line {
@@ -863,8 +916,8 @@ header {
         display: flex;
         justify-content: center;
         list-style: none;
-        width: 1400px;
-        margin-left: 465px;
+        width: 100%;
+        margin-left: 0px;
     }
 
     .company {
@@ -873,36 +926,43 @@ header {
 
     .footer-menu>li {
         display: block;
-        padding: 0 80px;
+        padding: 0 3px 0 15px;
     }
 
     .manager {
-        margin-left: 140px;
+        margin-left: 100px;
     }
 
     /***************** footer - logo *****************/
 
     .logo-info {
-        width: 1400px;
+        width: 100%;
         margin: 0 auto;
+    }
+
+    .flogo {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
     }
 
     .f-box {
         margin-top: 30px;
-        display: flex;
+        display: block;
     }
 
     .flogo>a>img {
-        width: 104px;
+        width: 92px;
     }
 
     .info {
         list-style: none;
-        margin-left: 335px;
+        margin-left: 14px;
+        text-align: center;
     }
 
     .info>li {
-        line-height: 23px;
+        line-height: 25px;
         font-size: 15px;
     }
 
@@ -919,324 +979,4 @@ header {
         margin-bottom: 30px;
     }
 
-}
-
-
-
-
-
-/********************************************************** 반응형 모바일 ****************************************************/
-
-@media screen and (min-width: 768px) {
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-
-    a:link,
-    a:visited {
-        color: inherit;
-        text-decoration: none;
-    }
-
-    div ul {
-        list-style: none;
-    }
-
-    body {
-        font-family: "나눔스퀘어";
-    }
-
-    /***************** header *****************/
-
-    header {
-        /* width: 768px; */
-        margin: 0 auto;
-        padding-top: 34px;
-        position: relative;
-        margin-bottom: 60px;
-    }
-
-    #headline {
-        display: flex;
-        position: absolute;
-        z-index: 2;
-        right: -10px;
-        top: 50px;
-    }
-
-    .logo {
-        margin-right: 300px;
-    }
-
-    .logo>a>img {
-        width: 65px;
-    }
-
-    /***************** 상단메뉴 *****************/
-
-    #gnb {
-        display: none;
-    }
-
-    #gnb>li {
-        /* padding-right: 2rem; */
-        /* margin-left: 100px; */
-        text-align: center;
-        list-style: none;
-        display: block;
-    }
-
-    #gnb>li>a {
-        font-weight: bold;
-        display: block;
-        height: 30px;
-        text-align: center;
-        width: 195px;
-        margin-left: 5px;
-    }
-
-    /***************** 배너 *****************/
-
-    #banner {
-        position: relative;
-        overflow: hidden;
-    }
-
-    #banner>a>img {
-        width: 768px;
-    }
-
-    /* #banner>h2 {
-        position: absolute;
-        color: #000;
-    } */
-
-    /***************** product *****************/
-
-    #product {
-        width: 768px;
-        margin: 0 auto;
-        height: 790px;
-        background: #ededed;
-        margin-top: 200px;
-    }
-
-    #product>h3 {
-        text-align: center;
-        font-weight: 800;
-        font-size: 30px;
-        color: #222222;
-        padding-top: 35px;
-        border-bottom: 3px solid #214ea1;
-        width: 190px;
-        margin: 0 auto;
-    }
-
-    /***************** gaslock *****************/
-
-    #gaslock {
-        display: flex;
-        list-style: none;
-    }
-
-    #gaslock>li {
-        display: block;
-        background: #fff;
-        width: 237px;
-        height: 210px;
-        margin: 25px 0 0 11px;
-        border-top-left-radius: 20px;
-        border-top-right-radius: 20px;
-    }
-
-    .button {
-        text-align: center;
-        border: 2px solid #bbb;
-        width: 45px;
-        height: 20px;
-        margin-left: 155px;
-        margin-top: 25px;
-        padding: 4px 5px;
-        border-radius: 10px;
-        color: rgb(133, 130, 130);
-    }
-
-    .button>a>p {
-        font-size: 10px;
-    }
-
-
-    #gaslock img {
-        width: 160px;
-        height: 130px;
-        margin: 15px 30px;
-    }
-
-    /***************** text-box *****************/
-
-    #text-box {
-        display: flex;
-        list-style: none;
-        margin-right: 25px;
-    }
-
-    #text-box>li {
-        display: block;
-        background: #d1d1d1;
-        width: 440px;
-        height: 170px;
-        margin: 0 0 0 12px;
-        border-bottom-left-radius: 20px;
-        border-bottom-right-radius: 20px;
-        text-align: center;
-    }
-
-    .text-1 {
-        font-size: 20px;
-        font-weight: 700;
-        margin-top: 20px;
-    }
-
-    .text-2 {
-        font-size: 33px;
-        font-weight: 800;
-    }
-
-    .text-3 {
-        font-size: 13px;
-        text-align: center;
-    }
-
-    /***************** notice-backgound *****************/
-
-    #noctice-back {
-        width: 2543px;
-        height: 500px;
-        background: #ededed;
-        margin-top: 200px;
-    }
-
-    /***************** notice *****************/
-
-    #notice-box {
-        display: flex;
-        width: 768px;
-        margin: 0 auto;
-        padding-top: 20px;
-    }
-
-    .notice {
-        width: 470px;
-        height: 460px;
-        background: #fff;
-        margin-right: 13px;
-    }
-
-    .notice-1 {
-        display: flex;
-        margin: 35px 37px;
-    }
-
-    .notice-1>h4 {
-        width: 100px;
-        font-size: 23px;
-        font-weight: 700;
-        border-bottom: 5px solid #214ea1;
-    }
-
-    .notice-button {
-        text-align: center;
-        border: 2px solid #bbb;
-        width: 70px;
-        height: 30px;
-        padding: 5px 5px;
-        border-radius: 10px;
-        color: rgb(133, 130, 130);
-        margin-left: 215px;
-    }
-
-    .notice-button:hover {
-        background: #8bb929;
-        border: 2px solid #8bb929;
-        color: #fff;
-    }
-
-    .notice-2 {
-        display: flex;
-        margin-left: 17px;
-        margin-top: 70px;
-    }
-
-    .num {
-        list-style: none;
-        margin-left: 157px;
-    }
-
-    /***************** client *****************/
-
-    .client {
-        width: 470px;
-        height: 460px;
-        background: #fff;
-        list-style: none;
-    }
-
-    .client-text {
-        width: 350px;
-        margin: 0 auto;
-    }
-
-    .client-text>h4 {
-        width: 100px;
-        font-size: 23px;
-        font-weight: 700;
-        border-bottom: 5px solid #214ea1;
-        margin-top: 35px;
-    }
-
-    /***************** number *****************/
-
-    .munber {
-        margin-top: 30px;
-    }
-
-    .cli {
-        font-size: 20px;
-        margin-top: 60px;
-        margin-left: 5px;
-    }
-
-    .numbers {
-        font-size: 55px;
-        font-weight: 800;
-    }
-
-    /***************** time *****************/
-
-    .time {
-        width: 358px;
-        margin: 0 auto;
-    }
-
-    .runing-time {
-        font-size: 20px;
-        margin-top: 50px;
-        margin-left: 5px;
-    }
-
-    .ex {
-        font-size: 20px;
-        margin-left: 95px;
-        margin-top: 3px;
-    }
-
-    /***************** lunch-time *****************/
-
-    .lunch-time {
-        font-size: 20px;
-        margin-top: 55px;
-        margin-left: 5px;
-    }
 }
