@@ -275,19 +275,36 @@ header {
 /***************** notice-backgound *****************/
 
 #noctice-back {
-    width: 2543px;
-    height: 500px;
+    width: 100%;
+    height: 635px;
     background: #ededed;
     margin-top: 200px;
 }
 
 /***************** notice *****************/
 
+#news {
+    /* position: absolute; */
+    display: flex;
+    justify-content: center;
+    padding-top: 35px;
+    padding-bottom: 25px;
+}
+
+#news>h3 {
+    width: 350px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 800;
+    color: #222222;
+    border-bottom: 5px solid #214ea1;
+}
+
 #notice-box {
     display: flex;
     width: 1400px;
     margin: 0 auto;
-    padding-top: 20px;
+    padding-top: 25px;
 }
 
 .notice {
@@ -359,14 +376,21 @@ header {
     background: #fff;
     list-style: none;
     margin: 0 10px 20px;
-    /* overflow: hidden; */
+    overflow: hidden;
     display: flex;
     position: relative;
 }
 
-.guide-1 > li > a > p {
+.guide-1>li>a>img {
+    width: 550px;
     position: absolute;
-    right: 40px;
+    top: -30px;
+    right: -105px;
+}
+
+.guide-1>li>a>p {
+    position: absolute;
+    right: 50px;
     top: 41%;
     font-size: 29px;
     font-weight: 700;
@@ -383,12 +407,20 @@ header {
     position: relative;
 }
 
-.guide-2 > li > a > p {
+.guide-2>li>a>img {
+    width: 590px;
     position: absolute;
-    right: 245px;
+    right: -60px;
+    top: -46px;
+}
+
+.guide-2>li>a>p {
+    position: absolute;
+    right: 235px;
     top: 41%;
     font-size: 29px;
     font-weight: 700;
+    z-index: 2;
 }
 
 .guide-3 {
@@ -402,7 +434,14 @@ header {
     position: relative;
 }
 
-.guide-3 > li > a > p {
+.guide-3>li>a>img {
+    width: 590px;
+    position: absolute;
+    right: -145px;
+    top: -30px;
+}
+
+.guide-3>li>a>p {
     position: absolute;
     right: 40px;
     top: 41%;
@@ -493,8 +532,8 @@ header {
     display: flex;
     justify-content: center;
     list-style: none;
-    width: 1400px;
-    margin-left: 790px;
+    width: 100%;
+    margin: 0 auto;
 }
 
 .company {
@@ -503,11 +542,11 @@ header {
 
 .footer-menu>li {
     display: block;
-    padding: 0 80px;
+    padding: 0 100px;
 }
 
 .manager {
-    margin-left: 140px;
+    margin-left: 471px;
 }
 
 /***************** footer - logo *****************/
@@ -518,8 +557,9 @@ header {
 }
 
 .f-box {
-    margin-top: 30px;
     display: flex;
+    margin-top: 30px;
+    margin-bottom: 10px;
 }
 
 .flogo>a>img {
@@ -541,7 +581,7 @@ header {
 .top-btn {
     position: absolute;
     right: 50px;
-    bottom: -1375px;
+    bottom: -1752px;
 }
 
 .top-btn>a>img {
@@ -641,7 +681,7 @@ header {
 
     #product {
         width: 100%;
-        height: 790px;
+        height: 710px;
         background: #ededed;
         margin: 0 auto;
 
@@ -765,6 +805,25 @@ header {
         margin-top: 0px;
     }
 
+    /***************** news *****************/
+
+    #news {
+        /* position: absolute; */
+        display: flex;
+        justify-content: center;
+        padding-top: 35px;
+        padding-bottom: 25px;
+    }
+
+    #news>h3 {
+        width: 180px;
+        text-align: center;
+        font-size: 23px;
+        font-weight: 800;
+        color: #222222;
+        border-bottom: 5px solid #214ea1;
+    }
+
 
     /***************** notice *****************/
 
@@ -819,31 +878,129 @@ header {
         margin-top: 50px;
     }
 
-    .notice-2 > li {
-        font-size: 14px;
+    .notice-2>li {
+        font-size: 15px;
     }
 
     .num {
         list-style: none;
-        margin-left: 185px;
+        margin-left: 170px;
     }
 
-    /***************** client *****************/
+    /***************** guide *****************/
 
+    .guide {
+        margin-left: 0px;
+        margin-right: 0px;
+        display: flex;
+    }
+
+    /* .guide > div {
+        display: block;
+        margin: 2px;
+    } */
+
+    /***************** guide-1 *****************/
+
+    .guide-1 {
+        width: 180px;
+        height: 145px;
+        background: #fff;
+        list-style: none;
+        margin: 10px 0 10px 10px;
+        overflow: hidden;
+        display: flex;
+        position: relative;
+    }
+
+    .guide-1>li>a>img {
+        width: 210px;
+        position: absolute;
+        right: -102px;
+        top: 22px;
+    }
+
+    .guide-1>li>a>p {
+        position: absolute;
+        right: 46px;
+        top: 73%;
+        font-size: 15px;
+        font-weight: 700;
+    }
+    
+    /***************** guide-2 *****************/
+    
+    .guide-2 {
+        width: 180px;
+        height: 145px;
+        background: #fff;
+        list-style: none;
+        margin: 10px 10px 0 10px;
+        overflow: hidden;
+        display: flex;
+        position: relative;
+    }
+    
+    .guide-2>li>a>img {
+        width: 210px;
+        position: absolute;
+        right: 33px;
+        top: 20px;
+    }
+    
+    .guide-2>li>a>p {
+        position: absolute;
+        right: 37px;
+        top: 71%;
+        font-size: 15px;
+        font-weight: 700;
+        z-index: 2;
+    }
+    
+    /***************** guide-3 *****************/
+    
+    .guide-3 {
+        width: 180px;
+        height: 145px;
+        background: #fff;
+        list-style: none;
+        margin: 10px 10px 10px 0;
+        overflow: hidden;
+        display: flex;
+        position: relative;
+    }
+    
+    .guide-3>li>a>img {
+        width: 210px;
+        position: absolute;
+        top: 21px;
+        right: -100px;
+    }
+    
+    .guide-3>li>a>p {
+        position: absolute;
+        right: 38px;
+        top: 70%;
+        font-size: 15px;
+        font-weight: 700;
+    }
+    
+    /***************** client *****************/
+    
     .client {
         width: 100%;
         height: 210px;
         background: #fff;
         list-style: none;
     }
-
+    
     .client-text {
         width: 420px;
         margin: 0 20px;
         padding-top: 5px;
         padding-left: 15px;
     }
-
+    
     .client-text>h4 {
         width: 89px;
         font-size: 20px;
@@ -851,59 +1008,59 @@ header {
         border-bottom: 5px solid #214ea1;
         margin-top: 35px;
     }
-
+    
     /***************** number *****************/
-
+    
     .munber {
         margin-top: -30px;
     }
-
+    
     .cli {
         font-size: 18px;
         margin-top: 60px;
         margin-left: 0px;
         font-weight: bold;
     }
-
+    
     .numbers {
         font-size: 36px;
         font-weight: 900;
         margin-left: -4px;
     }
-
+    
     /***************** time *****************/
-
+    
     .time {
         width: 420px;
         margin: 0 auto;
     }
-
+    
     .runing-time {
-        font-size: 18px;
+        font-size: 15px;
         margin-top: 30px;
         margin-left: 0px;
     }
-
+    
     .ex {
-        font-size: 18px;
-        margin-left: 73px;
+        font-size: 15px;
+        margin-left: 60px;
         margin-top: 3px;
     }
-
+    
     /***************** lunch-time *****************/
-
+    
     .lunch-time {
-        font-size: 18px;
+        font-size: 15px;
         margin-top: 30px;
         margin-left: 0px;
     }
-
+    
     /***************** footer *****************/
-
+    
     .footer {
         margin-top: 100px;
     }
-
+    
     .footer-line {
         border-top: 1px solid #837e7e;
         border-bottom: 1px solid #837e7e;
@@ -911,7 +1068,7 @@ header {
         max-width: 100%;
         min-width: 100%;
     }
-
+    
     .footer-menu {
         display: flex;
         justify-content: center;
@@ -919,64 +1076,63 @@ header {
         width: 100%;
         margin-left: 0px;
     }
-
+    
     .company {
         font-weight: bold;
     }
-
+    
     .footer-menu>li {
         display: block;
         padding: 0 3px 0 15px;
     }
-
+    
     .manager {
         margin-left: 100px;
     }
-
+    
     /***************** footer - logo *****************/
-
+    
     .logo-info {
         width: 100%;
         margin: 0 auto;
     }
-
+    
     .flogo {
         display: flex;
         justify-content: center;
         margin-bottom: 10px;
     }
-
+    
     .f-box {
         margin-top: 30px;
         display: block;
     }
-
+    
     .flogo>a>img {
         width: 92px;
     }
-
+    
     .info {
         list-style: none;
         margin-left: 14px;
         text-align: center;
     }
-
+    
     .info>li {
         line-height: 25px;
         font-size: 15px;
     }
-
+    
     /***************** top - btn *****************/
-
+    
     .top-btn {
         position: absolute;
-        right: 50px;
-        bottom: -1310px;
+        right: 15px;
+        bottom: -20px;
     }
-
+    
     .top-btn>a>img {
         width: 50px;
         margin-bottom: 30px;
     }
-
 }
