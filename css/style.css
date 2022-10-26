@@ -1240,6 +1240,7 @@ header {
         font-size: 15px;
         position: absolute;
         right: 15px;
+        transition-duration: (0, -50%);
     }
 
     .up {

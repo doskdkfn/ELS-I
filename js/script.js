@@ -24,8 +24,10 @@ $(document).ready(function() {
     /***************** m-toggle btn *****************/
 
     $('.m-gnb-2').click(function() {
-        
-    })
+        $(this).next('.m-submenu').stop().slideToggle(300);
+        $(this).toggleClass('on').siblings().removeClass('on');
+        $(this).next('.m-sbumenu').siblings('.m-submenu').slideUp(300);
+    });
 
     // $('.m-gnb-2').click(function() {
     //     $('.m-submenu').slideToggle();
