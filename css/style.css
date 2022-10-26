@@ -196,6 +196,7 @@ header {
     height: 790px;
     background: #ededed;
     margin-top: 200px;
+    position: relative;
 }
 
 #product>h3 {
@@ -207,6 +208,27 @@ header {
     border-bottom: 5px solid #214ea1;
     width: 260px;
     margin: 0 auto;
+}
+
+/***************** product - arrow *****************/
+
+#slide-arrow {
+    font-size: 50px;
+    color: #214ea1;
+    display: flex;
+    cursor: pointer;
+}
+
+.left {
+    position: absolute;
+    left: -108px;
+    top: 390px;
+}
+
+.right {
+    position: absolute;
+    right: -108px;
+    top: 390px;
 }
 
 /***************** gaslock *****************/
@@ -767,7 +789,7 @@ header {
         display: block;
         list-style: none;
         position: absolute;
-        top: 436px;
+        top: 125px;
         z-index: 1;
     }
 
@@ -1227,6 +1249,7 @@ header {
     #m-gnb > li {
         border-bottom: 1px solid #ccc;
         width: 250px;
+        cursor: pointer;
     }
 
     .m-gnb-2 {
