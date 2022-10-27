@@ -188,6 +188,24 @@ header {
     right: 55%;
 }
 
+/***************** product - slide *****************/
+
+#slide {
+    width: 1400px;
+    height: 690px;
+    overflow: hidden;
+    position: absolute;
+}
+
+.a {
+    position: absolute;
+    left: 100%;
+}
+
+.a:first-child {
+    left: 0;
+}
+
 /***************** product *****************/
 
 #product {
