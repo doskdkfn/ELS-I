@@ -11,62 +11,16 @@ $(document).ready(function() {
 
     /***************** pc - slide *****************/
 
-    function prev() {
-        if(curPos > 0) {
-            $('button').removeAttr('disabled')
-            $($('#slide')[curPos]).toggleClass('active')
-            $($('.a')[curPos]).toggleClass('active-step')
-            $('#slide').hide();
-            curPos -= 1;
-            $($('#slide')[curPos]).toggleClass('active')
-            $($('.a')[curPos]).toggleClass('active-step')
-            $('.a').fadeIn(800);
-        }
-        if(curPos == 0){
-            $(".prev")[0].setAttribute("disabled",'true')
-        }
-    }
+    $('#slide').bxSlider();
 
-    function next(){
-        if(curPos < 3){
-            $("button").removeAttr("disabled")
-            $($("#slide")[curPos]).toggleClass("active")
-            $($(".a")[curPos]).toggleClass("active-step")
-            $("#slide").hide();
-            curPos += 1;
-            $($("#slide")[curPos]).toggleClass("active")
-            $($(".a")[curPos]).toggleClass("active-step")
-            $(".a").fadeIn(800); 
-        }
-        if(curPos == 3){
-            $(".next")[0].setAttribute("disabled",'true')
-        }
-    }
 
-    function init(){
-        $("#slide").hide()
-        $(".a").show()
-        $(".left").click(prev)
-        $(".rigt").click(next)
-    }
+//    $('.prev').click(function() {
+//     $('.a').animate({width: "toggle" }, 400);
+//    });
 
-    function next() {
-        slider.stop().animate({
-            'left': -moveSlider_width * incre
-        }, 500);
-        numSlider.stop().animate({
-            'left': -numSlider_width * incre + num_init_left
-        }, 500);
-    }
-
-    function prev() {
-        slider.stop().animate({
-            'left': -moveSlider_width * incre
-        }, 500);
-        numSlider.stop().animate({
-            'left': -numSlider_width * incre + num_init_left
-        }, 500);
-    }
+//    $('.next').click(function() {
+//     $('.a').animate({width: "toggle" }, 400);
+//    });
 
     // var idx = 0;
     // setInterval(function() {

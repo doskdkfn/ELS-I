@@ -195,14 +195,19 @@ header {
     height: 690px;
     overflow: hidden;
     position: absolute;
+    display: flex;
 }
 
-.a {
-    position: absolute;
-    left: 100%;
+.slider {
+    display: block;
 }
 
-.a:first-child {
+.slider {
+    position: relative;
+    left: 0;
+}
+
+.slider:first-child {
     left: 0;
 }
 
@@ -237,13 +242,13 @@ header {
     cursor: pointer;
 }
 
-.left {
+.bx-prev {
     position: absolute;
     left: -108px;
     top: 390px;
 }
 
-.right {
+.bx-next {
     position: absolute;
     right: -108px;
     top: 390px;
