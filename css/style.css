@@ -646,6 +646,38 @@ header {
 }
 
 
+/***************** manager-login *****************/
+
+
+#login-box {
+    width: 600px;
+    height: 110px;
+    margin: 217px 0 0 969px;
+    background: #214ea1;
+    color: #fff;
+    padding: 5px 5px 0 5px;
+}
+
+#userId, #userPw, #userPw2 {
+    height: 40px;
+    width: 70%;
+    margin: 5px;
+}
+
+input[type=submit] {
+    height: 85px;
+    width: 120px;
+    background: #214ea1;
+    color: white;
+    font-size: 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    position: absolute;
+    top: 263px;
+    right: 1004px;
+}
+
+
 
 
 
