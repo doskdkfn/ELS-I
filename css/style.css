@@ -648,11 +648,21 @@ header {
 
 /***************** manager-login *****************/
 
+#manager-login-box {
+    max-width: 100%;
+    min-width: 100%;
+}
+
+#manager-login {
+    max-width: 100%;
+    min-width: 100%;
+}
 
 #login-box {
     width: 600px;
-    height: 110px;
-    margin: 217px 0 0 969px;
+    height: 160px;
+    margin-left: 39%;
+    margin-top: 10%;
     background: #214ea1;
     color: #fff;
     padding: 5px 5px 0 5px;
@@ -660,21 +670,21 @@ header {
 
 #userId, #userPw, #userPw2 {
     height: 40px;
-    width: 70%;
+    width: 98%;
     margin: 5px;
 }
 
-input[type=submit] {
-    height: 85px;
-    width: 120px;
+.submit {
+    height: 45px;
+    width: 588px;
     background: #214ea1;
     color: white;
     font-size: 15px;
     border-radius: 6px;
     cursor: pointer;
-    position: absolute;
+    /* position: absolute;
     top: 263px;
-    right: 1004px;
+    right: 1004px; */
 }
 
 
