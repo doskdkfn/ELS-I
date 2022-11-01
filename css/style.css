@@ -99,6 +99,7 @@ header {
     width: 200px;
     background: #fff;
     height: 200px;
+    box-shadow: 2px 2px 4px #ccc;
 }
 
 .submenu a {
@@ -136,6 +137,7 @@ header {
     width: 200px;
     background: #fff;
     height: 300px;
+    box-shadow: 2px 2px 4px #ccc;
 }
 
 .submenu-3 a {
@@ -637,9 +639,9 @@ header {
 /***************** top - btn *****************/
 
 .top-btn {
-    position: absolute;
+    position: fixed;
     right: 50px;
-    bottom: -1752px;
+    bottom: 50px;
 }
 
 .top-btn>a>img {
@@ -1229,9 +1231,9 @@ header {
     /***************** top - btn *****************/
     
     .top-btn {
-        position: absolute;
         right: 15px;
         bottom: -20px;
+        position: fixed;
     }
     
     .top-btn>a>img {
