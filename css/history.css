@@ -1,0 +1,72 @@
+/******************* history *******************/
+
+#history {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 30px;
+}
+
+/******************* year *******************/
+
+.year {
+    list-style: none;
+    padding-right: 30px;
+    margin-left: 50px;
+}
+
+.year > li {
+    display: block;
+    font-size: 21px;
+    padding: 22px 15px 5px 0;
+    line-height: 34px;
+    font-weight: 800;
+}
+
+/******************* circle *******************/
+
+.circle {
+    border-right: 2px solid #ddd;
+    height: 550px;
+    margin-top: 31px;
+}
+
+.circle > li {
+    list-style: none;
+    font-size: 20px;
+    color: #214ea1;
+    background: #fff;
+    position: relative;
+    right: -11px;
+}
+
+/******************* number *******************/
+
+.number {
+    list-style: none;
+    padding-right: 10px;
+    padding-left: 30px;
+}
+
+.number > li {
+    display: block;
+    font-size: 17px;
+    padding: 22px 15px 5px 0;
+    line-height: 35px;
+    font-weight: 800;
+    color: #214ea1;
+}
+
+/******************* hi-text *******************/
+
+.hi-text {
+    list-style: none;
+}
+
+.hi-text > li {
+    display: block;
+    font-size: 17px;
+    padding: 22px 15px 5px 0;
+    line-height: 35px;
+}
+
