@@ -1,8 +1,140 @@
+/****************** intro-wrap ****************/
+
 #intro-wrap {
     width: 1200px;
     margin: 0 auto;
 }
 
+/****************** ci-intro ****************/
+
+.ci-intro {
+    margin-top: 80px;
+}
+
+.ci-intro  > h2 {
+    font-size: 19px;
+    text-align: center;
+    color: gray;
+    line-height: 23px;
+}
+
+.ci-img-box {
+    display: flex;
+    justify-content: space-around;
+}
+
+/****************** intro-logo ****************/
+
+.intro-logo {
+    width: 405px;
+    border: 2px solid #aaa;
+    margin-top: 80px;
+}
+
 .intro-logo > img {
     width: 400px;
+}
+
+/****************** intro-text ****************/
+
+.intro-text {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.intro-text > p {
+    font-size: 17px;
+    line-height: 28px;
+}
+
+.color {
+    font-weight: bold;
+}
+
+.point {
+    color: #214ea1;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/********************************************************** 반응형 ****************************************************/
+
+@media screen and (max-width: 767px) {
+    /****************** intro-wrap ****************/
+
+    #intro-wrap {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    /****************** ci-intro ****************/
+
+    .ci-intro {
+        margin-top: 80px;
+        margin-bottom: 60px;
+    }
+
+    .ci-intro  > h2 {
+        font-size: 15px;
+        text-align: center;
+        color: gray;
+        line-height: 20px;
+    }
+
+    .ci-img-box {
+        width: 68%;
+        margin: 0 auto;
+        display: block;
+    }
+
+    /****************** intro-logo ****************/
+
+    .intro-logo {
+        width: 325px;
+        border: 2px solid #aaa;
+        margin-top: 30px;
+    }
+
+    .intro-logo > img {
+        width: 315px;
+    }
+
+    /****************** intro-text ****************/
+
+    .intro-text {
+        display: flex;
+        justify-content: center;
+        width: 88%;
+        margin: 80px 0 0 30px;
+    }
+
+    .intro-text > p {
+        font-size: 15px;
+        line-height: 28px;
+    }
+
+    .color {
+        font-weight: bold;
+        /* margin-top: 50px; */
+    }
+
+    .point {
+        color: #214ea1;
+        font-weight: bold;
+        font-size: 16px;
+    }
 }

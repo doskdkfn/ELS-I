@@ -1,0 +1,14 @@
+#map-box {
+    width: 1200px;
+    margin: 0 auto;
+   
+}
+
+#map {
+    margin-top: 50px;
+}
+
+#map > img {
+    width: 1200px;
+    height: 500px;
+}
