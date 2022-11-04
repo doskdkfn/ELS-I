@@ -1,3 +1,5 @@
+/******************* map-box ********************/
+
 #map-box {
     width: 1200px;
     margin: 0 auto;
@@ -10,5 +12,104 @@
 
 #map > img {
     width: 1200px;
-    height: 500px;
+    height: 480px;
+}
+
+/********************* map-text-box *********************/
+
+.map-text-box {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-top: 25px;
+    align-items: baseline;
+}
+
+.map-text-box > li {
+    font-size: 17px;
+    display: block;
+}
+
+.map-text1 {
+    font-weight: 800;
+}
+
+.map-text2 {
+    font-weight: 800;
+    font-size: 26px;
+}
+
+.map-num {
+    font-size: 32px;
+    font-weight: 800;
+}
+
+
+
+
+
+
+
+
+
+
+
+/********************************************************** 반응형 ****************************************************/
+
+@media screen and (max-width: 767px) {
+
+    /******************* m -  map-box ********************/
+
+    #map-box {
+        width: 100%;
+        margin: 0 auto;
+    
+    }
+
+    #map {
+        margin-top: 35px;
+    }
+
+    #map > img {
+        width: 483px;
+        height: 320px;
+        object-fit: cover;
+    }
+
+    /********************* m - map-text-box *********************/
+
+    .map-text-box {
+        display: block;
+        width: 72%;
+        margin: 0 auto;
+        list-style: none;
+        margin-top: 15px;
+    }
+
+    .map-text-box > li {
+        font-size: 15px;
+        display: block;
+        line-height: 28px;
+    }
+
+    .map-text1 {
+        font-weight: 800;
+        font-size: 16px;
+    }
+
+    .map-text2 {
+        font-weight: 800;
+        font-size: 23px;
+    }
+
+    .map-num {
+        font-size: 30px;
+        font-weight: 800;
+    }
+
+    /********************* m - footer *********************/
+
+    .footer {
+        margin-top: 40px;
+    }
 }
