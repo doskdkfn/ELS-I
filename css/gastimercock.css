@@ -1,0 +1,124 @@
+.about-company > h2 {
+    font-size: 35px;
+    font-weight: 500;
+    border-bottom: 5px solid #214ea1;
+    width: 255px;
+    padding-bottom: 10px;
+}
+
+.icon {
+    color: gray;
+    padding: 27px 0px;
+    font-size: 15px;
+    text-align: right;
+    width: 300px;
+    height: 30px;
+}
+
+/******************** 전자식타이머 페이지 css ******************/
+
+/******************** timer-page-btn ******************/
+
+#timer-page-btn {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+#timer-page-btn > li {
+    display: block;
+    border: 1px solid #bbb;
+    text-align: center;
+    padding: 10px 50px 10px 50px;
+    margin-top: 30px;
+}
+
+.blue-btn {
+    background: #214ea1;
+    color: #fff;
+    border: 1px solid #214ea1;
+}
+
+/******************** timer-item-box ******************/
+
+#timer-item-box {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.item-box {
+    width: 1200px;
+    height: 250px;
+    margin-top: 60px;
+    display: flex;
+}
+
+/******************** item-img *******************/
+
+.item-img {
+    width: 530px;
+    height: 250px;
+    background-color: #f5f5f5;
+    object-fit: cover;
+}
+
+.item-img > img {
+    width: 275px;
+    height: 230px;
+    margin: 10px 0 0 135px;
+}
+
+/******************** item-text *******************/
+
+.item-text {
+    width: 670px;
+    height: 250px;
+    padding: 50px 0 0 0px;
+    background: #f5f5f5 ;
+    align-items: baseline;
+   
+}
+
+.item-text > h2 {
+    font-size: 24px;
+}
+
+.item-text > p {
+    font-size: 14px;
+}
+
+.s-tit {
+    font-size: 10px;
+    color: #aaaaaa;
+    letter-spacing: 0.05em;
+}
+
+.big-font {
+    font-size: 35px;
+    padding-right: 10px;
+}
+
+
+/********************** item-btn ************************/
+
+.item-btn {
+    width: 80px;
+    height: 30px;
+    position: absolute;
+    right: 10%;
+    top: 16%;
+    border-radius: 10px;
+    border: 2px solid #bbb;
+}
+
+.item-btn:hover {
+    background: #8bb929;
+    border: 1px solid #8bb929;
+    color: #fff;
+}
+
+
+
