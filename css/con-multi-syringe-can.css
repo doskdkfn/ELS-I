@@ -67,8 +67,8 @@
 
 .item-img > img {
     width: 270px;
-    height: 220px;
-    margin: 15px 0 0 135px;
+    height: 243px;
+    margin: 5px 0 0 135px;
 }
 
 /******************** item-text *******************/
@@ -112,7 +112,7 @@
     height: 30px;
     position: absolute;
     right: 10%;
-    top: 13%;
+    top: 75%;
     border-radius: 10px;
     border: 2px solid #bbb;
 }
@@ -123,14 +123,14 @@
     color: #fff;
 }
 
-.item-btn2 {
+/* .item-btn2 {
     width: 80px;
     height: 30px;
     border-radius: 10px;
     border: 2px solid #bbb;
     position: absolute;
     right: 10%;
-    top: 33%;
+    top: 57%;
 }
 
 .item-btn2:hover {
@@ -146,7 +146,7 @@
     border: 2px solid #bbb;
     position: absolute;
     right: 10%;
-    top: 54%;
+    top: 93%;
 }
 
 .item-btn3:hover {
@@ -185,7 +185,7 @@
     background: #8bb929;
     border: 1px solid #8bb929;
     color: #fff;
-}
+} */
 
 
 
@@ -314,7 +314,7 @@
         height: 25px;
         position: absolute;
         right: 10%;
-        top: 15%;
+        top: 25%;
         border-radius: 10px;
         border: 2px solid #bbb;
     }
@@ -330,7 +330,7 @@
         border: 2px solid #bbb;
         position: absolute;
         right: 10%;
-        top: 33%;
+        top: 59%;
     }
 
     .item-btn2 > a {
@@ -344,7 +344,7 @@
         border: 2px solid #bbb;
         position: absolute;
         right: 10%;
-        top: 54%;
+        top: 93%;
     }
 
     .item-btn3 > a {
