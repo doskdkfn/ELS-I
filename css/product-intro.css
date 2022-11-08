@@ -70,7 +70,7 @@ body {
     font-size: 35px;
     font-weight: 500;
     border-bottom: 5px solid #214ea1;
-    width: 350px;
+    width: 450px;
     padding-bottom: 10px;
 }
 
@@ -87,9 +87,7 @@ body {
     cursor: pointer;
 }
 
-/************************************************* intro-box *************************************************/
-
-/************************ intro-box01 **********************/
+/************************************************* intro-box01 *************************************************/
 
 #intro-full-box {
     width: 1200px;
@@ -98,7 +96,7 @@ body {
 
 #intro-box01 {
     display: flex;
-    margin-top: 35px;
+    margin-top: 70px;
 }
 
 .intro-img > img {
@@ -136,11 +134,6 @@ body {
     font-weight: 800;
 }
 
-
-
-
-
-
 /*********************** intro-docu **************************/
 
 .intro-docu {
@@ -160,4 +153,133 @@ body {
 
 .docu2 > img {
     width: 140px;
+}
+
+/*********************** intro-line **************************/
+
+.intro-line {
+    border-bottom: 1px solid #ccc;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+/************************************************ intro-box02 ************************************************/
+
+/********************* intro-img2-box *********************/
+
+#intro-box02 > h2 {
+    font-size: 23px;
+    font-weight: 800;
+    border-left: 5px solid #214ea1;
+    /* border-bottom: 3px solid #214ea1; */
+    width: 100px;
+    padding: 0 0 0 7px;
+}
+
+.intro-text-box2 {
+    display: flex;
+    margin-top: 70px;
+    margin-left: 55px;
+}
+
+.intro-img2 > img {
+    width: 260px;
+}
+
+/*********************** intro-docu2 **************************/
+
+.intro-docu2 {
+    /* display: flex;
+    align-items: center; */
+    margin-top: 50px;
+}
+
+.intro-docu2 > p{
+    font-size: 17px;
+    color: gray;
+    line-height: 20px;
+}
+
+.bold {
+    font-size: 21px;
+    color: #000;
+    font-weight: 800;
+}
+
+/************************************************ intro-box03 ************************************************/
+
+#intro-box03 {
+    margin-top: 150px;
+}
+
+#intro-box03 > h2 {
+    font-size: 23px;
+    font-weight: 800;
+    border-left: 5px solid #214ea1;
+    /* border-bottom: 3px solid #214ea1; */
+    width: 100px;
+    padding: 0 0 0 7px;
+    margin-bottom: 60px;
+}
+
+#intro-box03  p {
+    line-height: 25px;
+    font-size: 19px;
+}
+
+.bold3 {
+    font-size: 21px;
+    font-weight: 800;
+}
+
+.cle {
+    font-size: 5px;
+    width: 20px;
+    padding-top: 8px;
+    color: #214ea1;
+    margin-left: 10px;
+}
+
+.intro-docu3 {
+    display: flex;
+    margin-top: 30px;
+}
+
+/************************************************ intro-box04 ************************************************/
+
+#intro-box04 {
+    margin-top: 150px;
+}
+
+#intro-box04 > h2 {
+    font-size: 23px;
+    font-weight: 800;
+    border-left: 5px solid #214ea1;
+    /* border-bottom: 3px solid #214ea1; */
+    width: 170px;
+    padding: 0 0 0 7px;
+    margin-bottom: 60px;
+}
+
+/************************* install ******************************/
+
+.install {
+    display: flex;
+}
+
+.install > li {
+    list-style: none;
+    display: block;
+    
+}
+
+.install > li > img {
+    width: 310px;
+}
+
+.right {
+    font-size: 45px;
+    color: #214ea1;
+    padding: 120px 30px 0 30px;
 }
