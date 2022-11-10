@@ -102,6 +102,7 @@ body {
 .intro-img > img {
     width: 430px;
     height: 410px;
+    margin-right: 40px;
 }
 
 /********************** intro-text-box ***********************/
@@ -218,7 +219,7 @@ body {
     font-weight: 800;
     border-left: 5px solid #214ea1;
     /* border-bottom: 3px solid #214ea1; */
-    width: 100px;
+    width: 175px;
     padding: 0 0 0 7px;
     margin-bottom: 60px;
 }
@@ -244,6 +245,82 @@ body {
 .intro-docu3 {
     display: flex;
     margin-top: 30px;
+}
+
+/************************************************ intro-box03-1 ************************************************/
+
+#intro-box03-1 {
+    margin-top: 130px;
+}
+
+#intro-box03-1 > h2 {
+    font-size: 23px;
+    font-weight: 800;
+    border-left: 5px solid #214ea1;
+    /* border-bottom: 3px solid #214ea1; */
+    width: 175px;
+    height: 27px;
+    padding: 0 0 0 7px;
+    margin-bottom: 60px;
+}
+
+#intro-box03-1  p {
+    line-height: 31px;
+    font-size: 18px;
+}
+
+.bold3 {
+    font-size: 21px;
+    font-weight: 800;
+}
+
+.cle {
+    font-size: 5px;
+    width: 20px;
+    padding-top: 8px;
+    color: #214ea1;
+    margin-left: 10px;
+}
+
+.intro-docu3-1 {
+    display: flex;
+    margin-top: 30px;
+}
+
+/************************************************ intro-box03-2 ************************************************/
+
+#intro-box03-1-03-2 {
+    display: flex;
+}
+
+#intro-box03-2 {
+    margin-top: 130px;
+    margin-left: 150px;
+}
+
+#intro-box03-2 > h2 {
+    font-size: 23px;
+    font-weight: 800;
+    border-left: 5px solid #214ea1;
+    /* border-bottom: 3px solid #214ea1; */
+    width: 350px;
+    height: 27px;
+    padding: 0 0 0 7px;
+    margin-bottom: 5px;
+}
+
+.box03-2text {
+    line-height: 25px;
+    font-size: 18px;
+    color: #214ea1;
+    font-weight: bolder;
+}
+
+
+.intro-docu3-2 > img {
+    width: 230px;
+    margin-top: 40px;
+    border-radius: 15px;
 }
 
 /************************************************ intro-box04 ************************************************/
@@ -305,6 +382,56 @@ body {
     font-weight: 800;
     color: #214ea1;
     line-height: 50px;
+}
+
+/************************************************ intro-box04-1 ************************************************/
+
+#intro-box04-1 {
+    margin-top: 150px;
+}
+
+#intro-docu3-3-3-4 {
+    display: flex;
+    justify-content: space-around;
+}
+
+#intro-box04-1 > h2 {
+    font-size: 23px;
+    font-weight: 800;
+    border-left: 5px solid #214ea1;
+    /* border-bottom: 3px solid #214ea1; */
+    width: 400px;
+    padding: 0 0 0 7px;
+    margin-bottom: 60px;
+}
+
+.mini-blue {
+    font-size: 18px;
+    color: #214ea1;
+}
+
+.intro-docu3-3 > img {
+    width: 340px;
+}
+
+.intro-docu3-4 {
+    line-height: 25px;
+}
+
+.intro-docu3-4 h3 {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.intro-docu3-4 h4 {
+    font-size: 20px;
+    font-weight: 800;
+    margin-top: 35px;
+}
+
+.intro-docu3-4 p {
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 /************************************************ intro-box05 ************************************************/
