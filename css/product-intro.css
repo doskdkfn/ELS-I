@@ -280,6 +280,7 @@ body {
     font-size: 45px;
     color: #214ea1;
     padding: 120px 30px 0 30px;
+    display: block;
 }
 
 /************************* install-text ******************************/
@@ -736,7 +737,7 @@ body {
 
     .install > li {
         list-style: none;
-        display: block;
+        display: none;
         padding-top: 25px;
         
     }
@@ -759,6 +760,7 @@ body {
         list-style: none;
         display: block;
         font-size: 16px;
+        margin-bottom: 10px;
     }
 
     .li > li > img {
