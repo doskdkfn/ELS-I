@@ -1000,6 +1000,7 @@ body {
         width: 650px;
         padding: 0 0 0 7px;
         margin-bottom: 40px;
+        display: inline-grid;
     }
 
     .side-blue {
@@ -1008,8 +1009,9 @@ body {
     }
 
     .battery {
+        width: 67%;
+        margin: 0 auto;
         display: block;
-        justify-content: center;
         list-style: none;
     }
 
@@ -1024,6 +1026,7 @@ body {
         padding: 20px 30px 20px 30px;
         display: block;
         transform: rotate(90deg);
+        margin-left: 103px;
     }
 
     /************************************************ m - intro-box04 ************************************************/
