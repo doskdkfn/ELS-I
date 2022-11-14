@@ -149,7 +149,7 @@ body {
 }
 
 .docu1 > img {
-    width: 100px;
+    width: 88px;
 }
 
 .docu2 {
@@ -157,7 +157,7 @@ body {
 }
 
 .docu2 > img {
-    width: 120px;
+    width: 100px;
 }
 
 .docu2 > p {
@@ -352,7 +352,7 @@ body {
     font-weight: 800;
     border-left: 5px solid #214ea1;
     /* border-bottom: 3px solid #214ea1; */
-    width: 650px;
+    width: 700px;
     padding: 0 0 0 7px;
     margin-bottom: 40px;
 }
@@ -791,13 +791,13 @@ body {
         margin-right: 20px;
     }
 
-    .docu1 > img {
+    /* .docu1 > img {
         width: 120px;
     }
 
     .docu2 > img {
         width: 140px;
-    }
+    } */
 
     /*********************** m - intro-line **************************/
 
