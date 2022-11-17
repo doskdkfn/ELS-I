@@ -322,6 +322,35 @@ body {
     font-weight: bold;
 }
 
+.intro-box-text04 {
+    /* line-height: 30px; */
+    list-style: none;
+    display: flex;
+    width: 455px;
+}
+
+.intro-box-text04 > li {
+    font-size: 14px;
+    list-style: none;
+}
+
+.cle06 {
+    font-size: 5px;
+    width: 20px;
+    padding-top: 0px;
+    color: #214ea1;
+    margin-left: 10px;
+}
+
+.intro-icon > li {
+    padding-bottom: 9px;
+}
+
+.intro-text > li {
+    margin-bottom: 10px;
+    width: 1200px;
+}
+
 /*************************** contents-btn *****************************/
 
 .contents-btn {
@@ -700,16 +729,40 @@ body {
     }
 
     .intro-box-text04 {
-        line-height: 30px;
+        /* line-height: 30px; */
+        list-style: none;
+        display: flex;
+        width: 455px;
     }
 
     .intro-box-text04 > li {
         font-size: 14px;
+        list-style: none;
     }
-
 
     .bold {
         font-weight: bold;
+    }
+
+    .cle06 {
+        font-size: 5px;
+        width: 20px;
+        padding-top: 8px;
+        color: #214ea1;
+        margin-left: 10px;
+    }
+
+    .intro-icon > li {
+        padding-bottom: 20px;
+    }
+
+    .intro-icon > li:first-child {
+        margin-bottom: 29px;
+    }
+
+    .intro-text > li {
+        margin-bottom: 20px;
+        width: 426px;
     }
 
     /*************************** m - contents-btn *****************************/
