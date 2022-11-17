@@ -28,13 +28,13 @@ body {
     margin: 0 auto;
 }
 
-#small-banner > a > img {
+#small-banner>a>img {
     width: 1900px;
     height: 100px;
     margin-top: 10px;
 }
 
-#small-banner > h2 {
+#small-banner>h2 {
     position: absolute;
     color: #fff;
     font-size: 18px;
@@ -66,7 +66,7 @@ body {
     margin: 0 auto;
 }
 
-.about-company > h2 {
+.about-company>h2 {
     font-size: 35px;
     font-weight: 500;
     border-bottom: 5px solid #214ea1;
@@ -83,10 +83,12 @@ body {
     height: 30px;
 }
 
-.icon > a {
+.icon>a {
     cursor: pointer;
 }
 
+
+/************************************************* concent-intro **************************************************/
 
 /************************************************* intro-box01 *************************************************/
 
@@ -101,7 +103,7 @@ body {
     margin-left: 55px;
 }
 
-.intro-img > img {
+.intro-img>img {
     width: 430px;
     height: 410px;
     margin-right: 40px;
@@ -155,11 +157,11 @@ body {
     margin-right: 20px;
 }
 
-.docu1 > p {
+.docu1>p {
     font-size: 13px;
 }
 
-.docu1 > img {
+.docu1>img {
     width: 125px;
 }
 
@@ -167,11 +169,11 @@ body {
     width: 155px;
 }
 
-.docu2 > img {
+.docu2>img {
     width: 125px;
 }
 
-.docu2 > p {
+.docu2>p {
     font-size: 13px;
     font-weight: 500;
 }
@@ -188,7 +190,7 @@ body {
 
 /********************* intro-box-img *********************/
 
-#intro-box02 > h2 {
+#intro-box02>h2 {
     font-size: 23px;
     font-weight: 800;
     border-left: 5px solid #214ea1;
@@ -197,11 +199,11 @@ body {
     padding: 0 0 0 7px;
 }
 
-.intro-box-img > img {
+.intro-box-img>img {
     width: 250px;
 }
 
-.intro-box-img > p {
+.intro-box-img>p {
     text-align: center;
     font-size: 20px;
     color: #214ea1;
@@ -216,7 +218,7 @@ body {
 
 /********************* intro-box-text *********************/
 
-.intro-box-text  {
+.intro-box-text {
     display: block;
     line-height: 30px;
     border: 1px solid gray;
@@ -227,8 +229,8 @@ body {
     margin-top: 25px;
 }
 
-.intro-box-text > li { 
-    font-size: 17px; 
+.intro-box-text>li {
+    font-size: 17px;
 }
 
 /************************************************ intro-box03 ************************************************/
@@ -237,7 +239,7 @@ body {
     margin-top: 150px;
 }
 
-#intro-box03 > h2 {
+#intro-box03>h2 {
     font-size: 23px;
     font-weight: 800;
     border-left: 5px solid #214ea1;
@@ -260,7 +262,7 @@ body {
     line-height: 23px;
 }
 
-.intro-box-img03 > p {
+.intro-box-img03>p {
     margin-top: 10px;
 }
 
@@ -278,7 +280,7 @@ body {
     font-size: 16px;
 }
 
-.table1 > li {
+.table1>li {
     display: block;
     padding: 20px 132px 20px 132px;
     border: 1px solid #aaa;
@@ -295,7 +297,7 @@ body {
     margin-top: 150px;
 }
 
-#intro-box04 > h2 {
+#intro-box04>h2 {
     font-size: 23px;
     font-weight: 800;
     border-left: 5px solid #214ea1;
@@ -309,7 +311,7 @@ body {
     width: 1200px;
 }
 
-.intro-box-img04 > img {
+.intro-box-img04>img {
     width: 480px;
 }
 
@@ -329,7 +331,7 @@ body {
     width: 455px;
 }
 
-.intro-box-text04 > li {
+.intro-box-text04>li {
     font-size: 14px;
     list-style: none;
 }
@@ -342,11 +344,11 @@ body {
     margin-left: 10px;
 }
 
-.intro-icon > li {
+.intro-icon>li {
     padding-bottom: 9px;
 }
 
-.intro-text > li {
+.intro-text>li {
     margin-bottom: 10px;
     width: 1200px;
 }
@@ -374,13 +376,173 @@ body {
     color: #fff;
 }
 
+/************************************************* opener-intro **************************************************/
+
+/************************************************* intro-box01 *************************************************/
+
+#intro-full-box {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#intro-box01-opener {
+    display: flex;
+    margin-top: 70px;
+    margin-left: 55px;
+}
+
+.intro-img-opener>img {
+    width: 430px;
+    height: 275px;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+
+/********************** intro-text-box ***********************/
+
+.intro-box p {
+    font-size: 16px;
+    color: gray;
+    line-height: 20px;
+}
+
+.intro-box h2 {
+    font-size: 28px;
+    font-weight: normal;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.bold1 {
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.bold2-1 {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.intro-box h3 {
+    font-size: 24px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.bold2 {
+    font-weight: 800;
+}
+
+/*********************** intro-docu **************************/
+
+.intro-docu {
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.docu1 {
+    margin-right: 20px;
+}
+
+.docu1>p {
+    font-size: 13px;
+}
+
+.docu1>img {
+    width: 125px;
+}
+
+.docu2 {
+    width: 155px;
+}
+
+.docu2>img {
+    width: 125px;
+}
+
+.docu2>p {
+    font-size: 13px;
+    font-weight: 500;
+}
+
+/************************************************ intro-box02 ************************************************/
+
+#intro-box02-opener>h2 {
+    font-size: 23px;
+    font-weight: 800;
+    border-left: 5px solid #214ea1;
+    /* border-bottom: 3px solid #214ea1; */
+    width: 100px;
+    padding: 0 0 0 7px;
+}
+
+/********************* intro-box-img *********************/
+
+.intro-box-img-opener>img {
+    width: 420px;
+    border-radius: 20px;
+}
+
+.intro-box-img-opener>p {
+    text-align: center;
+    font-size: 20px;
+    color: #214ea1;
+    font-weight: 800;
+    padding-top: 10px;
+}
+
+/****************** intro-box-text-opener *****************/
+
+.intro-box-text-opener {
+    list-style: none;
+}
+
+.intro-box-text-opener>li {
+    font-size: 17px;
+    padding: 18px 0 0 55px;
+}
+
+/************************************************ intro-box03 ************************************************/
+
+#box03-img-text-opener {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.right {
+    font-size: 45px;
+    color: #214ea1;
+    padding: 120px 30px 0 30px;
+    display: block;
+}
+
+/************************* opener-manual ******************************/
+
+.opener-manual {
+    text-align: center;
+    list-style: none;
+}
+
+.opener-manual>li {
+    list-style: none;
+    display: block;
+    font-size: 17px;
+}
 
 
+.opener-manual>li>img {
+    width: 230px;
+}
 
-
-
-
-
+.blue-num {
+    font-size: 25px;
+    font-weight: 800;
+    color: #214ea1;
+    line-height: 50px;
+}
 
 
 
@@ -431,13 +593,13 @@ body {
         margin: 0 auto;
     }
 
-    #small-banner > a > img {
+    #small-banner>a>img {
         width: 1900px;
         height: 100px;
         margin-top: 10px;
     }
 
-    #small-banner > h2 {
+    #small-banner>h2 {
         position: absolute;
         color: #fff;
         font-size: 13px;
@@ -470,14 +632,14 @@ body {
         margin: 0 auto;
     }
 
-    .about-company > h2 {
+    .about-company>h2 {
         font-size: 27px;
         font-weight: 500;
         border-bottom: 5px solid #214ea1;
         width: 150px;
         padding-bottom: 10px;
     }
-    
+
     .icon {
         color: gray;
         padding: 27px 0px;
@@ -486,7 +648,7 @@ body {
         width: 385px;
         height: 30px;
     }
-    
+
     /************************************************* intro-box01 *************************************************/
 
     #intro-full-box {
@@ -501,7 +663,7 @@ body {
         width: 100%;
     }
 
-    .intro-img > img {
+    .intro-img>img {
         width: 430px;
         height: 410px;
         margin-left: 18px;
@@ -563,12 +725,12 @@ body {
         margin-left: 15px;
     }
 
-    .docu1 > p {
+    .docu1>p {
         font-size: 13px;
         font-weight: 500;
     }
 
-    .docu1 > img {
+    .docu1>img {
         width: 125px;
     }
 
@@ -576,11 +738,11 @@ body {
         width: 155px;
     }
 
-    .docu2 > img {
+    .docu2>img {
         width: 125px;
     }
 
-    .docu2 > p {
+    .docu2>p {
         font-size: 13px;
         font-weight: 500;
     }
@@ -601,7 +763,7 @@ body {
         width: 100%;
     }
 
-    #intro-box02 > h2 {
+    #intro-box02>h2 {
         font-size: 20px;
         font-weight: 800;
         border-left: 5px solid #214ea1;
@@ -610,12 +772,12 @@ body {
         padding: 0 0 0 7px;
     }
 
-    .intro-box-img > img {
+    .intro-box-img>img {
         width: 250px;
         margin-left: 108px;
     }
 
-    .intro-box-img > p {
+    .intro-box-img>p {
         text-align: center;
         font-size: 20px;
         color: #214ea1;
@@ -630,7 +792,7 @@ body {
 
     /********************* intro-box-text *********************/
 
-    .intro-box-text  {
+    .intro-box-text {
         display: block;
         line-height: 30px;
         border: 1px solid gray;
@@ -641,8 +803,8 @@ body {
         margin-top: 25px;
     }
 
-    .intro-box-text > li { 
-        font-size: 15px; 
+    .intro-box-text>li {
+        font-size: 15px;
     }
 
     /************************************************ intro-box03 ************************************************/
@@ -651,7 +813,7 @@ body {
         margin-top: 150px;
     }
 
-    #intro-box03 > h2 {
+    #intro-box03>h2 {
         font-size: 20px;
         font-weight: 800;
         border-left: 5px solid #214ea1;
@@ -673,7 +835,7 @@ body {
         margin-top: 40px;
     }
 
-    .intro-box-img03 > p {
+    .intro-box-img03>p {
         margin-top: 10px;
         font-size: 16px;
     }
@@ -691,7 +853,7 @@ body {
         text-align: center;
     }
 
-    .table1 > li {
+    .table1>li {
         display: block;
         padding: 20px 13px 20px 13px;
         border: 1px solid #aaa;
@@ -709,7 +871,7 @@ body {
         margin-top: 150px;
     }
 
-    #intro-box04 > h2 {
+    #intro-box04>h2 {
         font-size: 20px;
         font-weight: 800;
         border-left: 5px solid #214ea1;
@@ -723,7 +885,7 @@ body {
         width: 1200px;
     }
 
-    .intro-box-img04 > img {
+    .intro-box-img04>img {
         width: 400px;
         margin-left: 25px;
     }
@@ -735,7 +897,7 @@ body {
         width: 455px;
     }
 
-    .intro-box-text04 > li {
+    .intro-box-text04>li {
         font-size: 14px;
         list-style: none;
     }
@@ -752,15 +914,15 @@ body {
         margin-left: 10px;
     }
 
-    .intro-icon > li {
+    .intro-icon>li {
         padding-bottom: 20px;
     }
 
-    .intro-icon > li:first-child {
+    .intro-icon>li:first-child {
         margin-bottom: 29px;
     }
 
-    .intro-text > li {
+    .intro-text>li {
         margin-bottom: 20px;
         width: 426px;
     }
