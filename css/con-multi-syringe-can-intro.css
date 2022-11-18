@@ -515,7 +515,14 @@ body {
 .right {
     font-size: 45px;
     color: #214ea1;
-    padding: 120px 30px 0 30px;
+    padding: 95px 30px 0 30px;
+    display: block;
+}
+
+.right-opener {
+    font-size: 45px;
+    color: #214ea1;
+    padding: 95px 30px 0 30px;
     display: block;
 }
 
@@ -544,9 +551,31 @@ body {
     line-height: 50px;
 }
 
+/************************************************ intro-box04 ************************************************/
 
+#opener-table {
+    display: flex;
+    list-style: none;
+    width: 1200px;
+}
 
+.opener-th > li, .opener-td > li {
+    display: block;
+    text-align: center;
+    padding: 20px 0 20px 0;
+    border: 1px solid #aaa;
+    font-size: 16px;
+}
 
+.opener-th > li {
+    width: 420px;
+    font-weight: 800;
+    background: #eee;
+}
+
+.opener-td > li {
+   width: 780px;
+}
 
 
 
@@ -666,6 +695,21 @@ body {
     .intro-img>img {
         width: 430px;
         height: 410px;
+        margin-left: 18px;
+    }
+
+    /********************** intro-box01-opener ***********************/
+
+    #intro-box01-opener {
+        display: block;
+        margin-top: 50px;
+        margin-left: 0px;
+        width: 100%;
+    }
+
+    .intro-img-opener>img {
+        width: 430px;
+        height: 230px;
         margin-left: 18px;
     }
 
@@ -790,6 +834,22 @@ body {
         margin-top: 50px;
     }
 
+    /***************** intro-box-img-opener ******************/
+
+    .intro-box-img-opener>img {
+        width: 400px;
+        margin-left: 30px;
+    }
+
+    .intro-box-text-opener {
+        margin-top: 10px;
+    }
+
+    .intro-box-text-opener > li {
+        font-size: 15px;
+        padding: 10px 0 0 55px;
+    }
+
     /********************* intro-box-text *********************/
 
     .intro-box-text {
@@ -838,6 +898,38 @@ body {
     .intro-box-img03>p {
         margin-top: 10px;
         font-size: 16px;
+    }
+
+    /************** box03-img-text-opener ***************/
+
+    #box03-img-text-opener {
+        display: block;
+        margin-top: 30px;
+    }
+
+    #box03-img-text-opener > li {
+        height: 90px;
+    }
+
+    .opener-manual > li {
+        font-size: 16px;
+    }
+
+    .opener-manual > li > img {
+        width: 300px;
+    }
+
+    .blue-num {
+        font-size: 20px;
+    }
+
+    .right-opener {
+        font-size: 30px;
+        color: #214ea1;
+        padding: 77px 50px 0 50px;
+        display: block;
+        transform: rotate(90deg);
+        margin-left: 207px;
     }
 
     /************** table ***************/
@@ -925,6 +1017,32 @@ body {
     .intro-text>li {
         margin-bottom: 20px;
         width: 426px;
+    }
+
+    /************** opener - table ***************/
+
+    #opener-table {
+        width: 100%;
+    }
+
+    .opener-th > li, .opener-td > li {
+        display: block;
+        text-align: center;
+        padding: 20px 0 20px 0;
+        border: 1px solid #aaa;
+        font-size: 16px;
+    }
+    
+    .opener-th > li {
+        width: 130px;
+        font-weight: 800;
+        background: #eee;
+        font-size: 16px;
+    }
+    
+    .opener-td > li {
+       width: 334px;
+       font-size: 16px;
     }
 
     /*************************** m - contents-btn *****************************/
