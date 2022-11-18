@@ -138,6 +138,7 @@ header {
     background: #fff;
     height: 300px;
     box-shadow: 2px 2px 4px #ccc;
+    display: none;
 }
 
 .submenu-3 a {
@@ -729,6 +730,7 @@ header {
         font-size: 16px;
         font-family: "나눔스퀘어";
         position: relative;
+        overflow-x: hidden;
     }
 
     /******************** m - header ******************/
@@ -890,7 +892,7 @@ header {
     }
 
     .text {
-        margin-top: 10px;
+        margin-top: -80px;
     }
 
     .text2 {
