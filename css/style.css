@@ -691,7 +691,96 @@ header {
     right: 1004px; */
 }
 
+/***************** popup *****************/
 
+#pop-back {
+    background: url(../images/pop-back.png);
+    width: 800px;
+    height: 600px;
+    position: absolute;
+    top: 120px;
+    margin-left: 46%;
+}
+
+/*********** popup-title ************/
+
+.pop-title {
+    color: #fff;
+    padding: 40px 0 0 35px;
+}
+
+.pop-title > h2 {
+    font-size: 25px;
+    font-weight: normal;
+}
+
+.pop-title > h3 {
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 55px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.pop-title > p {
+    font-size: 20px;
+    font-weight: bold;
+    color: #214ea1;
+    background: #fff;
+    width: 120px;
+    text-align: center;
+    border-radius: 20px;
+    padding: 3px;
+}
+
+.pop-text-bot {
+    padding: 40px 0 0 35px;
+}
+
+/*********** popup-list ************/
+
+.pop-list {
+    color: #fff;
+    list-style: none;
+    display: flex;
+}
+
+
+.pop-list > li {
+    display: block;
+    width: 115px;
+    text-align: center;
+}
+
+.pop-list > li > img {
+    width: 35px;
+}
+
+.pop-list > li:nth-child(2) {
+    border-right: 1px solid;
+    border-left: 1px solid;
+    border-bottom: 1px solid;
+}
+
+/*********** popup-list2 ************/
+
+.pop-list2 {
+    color: #fff;
+    list-style: none;
+    display: flex;
+    margin-top: 15px;
+}
+
+
+.pop-list2 > li {
+    display: block;
+    width: 115px;
+    text-align: center;
+}
+
+.pop-list2 > li > img {
+    width: 35px;
+}
 
 
 
