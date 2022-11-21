@@ -698,15 +698,19 @@ header {
     width: 800px;
     height: 600px;
     position: absolute;
-    top: 120px;
+    top: 130px;
     margin-left: 46%;
+}
+
+#left-right {
+    display: flex;
 }
 
 /*********** popup-title ************/
 
 .pop-title {
     color: #fff;
-    padding: 40px 0 0 35px;
+    padding: 30px 0 0 35px;
 }
 
 .pop-title > h2 {
@@ -718,8 +722,8 @@ header {
     font-size: 60px;
     font-weight: 800;
     line-height: 55px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .pop-title > p {
@@ -734,7 +738,7 @@ header {
 }
 
 .pop-text-bot {
-    padding: 40px 0 0 35px;
+    padding: 30px 0 0 35px;
 }
 
 /*********** popup-list ************/
@@ -748,43 +752,75 @@ header {
 
 .pop-list > li {
     display: block;
-    width: 115px;
+    width: 130px;
     text-align: center;
+    border: 1px  solid #f1f1f1;
+    padding: 15px 3px 15px 3px;
 }
 
 .pop-list > li > img {
     width: 35px;
 }
 
+.pop-list > li:nth-child(1) {
+   border-left: none;
+   border-right: none;
+   border-top: none;
+}
+
 .pop-list > li:nth-child(2) {
-    border-right: 1px solid;
-    border-left: 1px solid;
-    border-bottom: 1px solid;
+    border-top: none;
 }
 
-/*********** popup-list2 ************/
+.pop-list > li:nth-child(3) {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
 
-.pop-list2 {
+/* ********** popup-img *********** */
+
+.right-popup {
+    height: 460px;
+    padding: 75px 0 0 60px;
+}
+
+.right-popup > img {
+    width: 250px;
+}
+
+/***************** popup-btn *******************/
+
+/* ********** chkPop *********** */
+
+#chkPop {
     color: #fff;
-    list-style: none;
-    display: flex;
-    margin-top: 15px;
+    margin-top: 20px;
 }
 
-
-.pop-list2 > li {
-    display: block;
-    width: 115px;
-    text-align: center;
+.close {
+    position: absolute;
+    top: 18px;
+    right: 30px;
+    color: #fff;
+    font-size: 35px;
+    cursor: pointer;
 }
 
-.pop-list2 > li > img {
-    width: 35px;
+.end {
+    position: absolute;
+    bottom: 18px;
+    right: 30px;
+    background: #266ff7;
+    border: none;
+    cursor: pointer;
+    display: none;
 }
 
-
-
-
+.end > p {
+    padding: 3px 15px 3px 15px;
+    color: #fff;
+}
 
 
 
