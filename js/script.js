@@ -56,11 +56,15 @@ $(document).ready(function() {
 
     $('.pop').click(function() {
         $('#pop-back').fadeIn();
-    })
+    });
 
     $('.close').click(function() {
         $('#pop-back').hide();
-    })
+    });
+
+    $('.end').click(function() {
+        $('#pop-back').hide();
+    });
 
 });
 

@@ -785,7 +785,7 @@ header {
     padding: 75px 0 0 60px;
 }
 
-.right-popup > img {
+.right-img > img {
     width: 250px;
 }
 
@@ -1483,6 +1483,148 @@ header {
     .m-submenu > li > a {
         font-size: 12px;
         font-weight: bold;
+    }
+
+    /********************************************* popup **********************************************/
+
+    #pop-back {
+        background: url(../images/pop-back.png);
+        width: 460px;
+        height: 600px;
+        position: absolute;
+        top: 130px;
+        margin-left: 2.5%;
+    }
+
+    #left-right {
+        display: flex;
+    }
+
+    /*********** popup-title ************/
+
+    .pop-title {
+        color: #fff;
+        padding: 30px 0 0 25px;
+    }
+
+    .pop-title > h2 {
+        font-size: 20px;
+        font-weight: normal;
+    }
+
+    .pop-title > h3 {
+        font-size: 40px;
+        font-weight: 800;
+        line-height: 40px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .pop-title > p {
+        font-size: 15px;
+        font-weight: bold;
+        color: #214ea1;
+        background: #fff;
+        width: 90px;
+        text-align: center;
+        border-radius: 20px;
+        padding: 3px;
+    }
+
+    .pop-text-bot {
+        padding: 105px 0 0 30px;
+    }
+
+    /*********** popup-list ************/
+
+    .pop-list {
+        color: #fff;
+        list-style: none;
+        display: flex;
+    }
+
+
+    .pop-list > li {
+        display: block;
+        width: 130px;
+        text-align: center;
+        border: 1px  solid #f1f1f1;
+        padding: 15px 3px 15px 3px;
+    }
+
+    .pop-list > li > p {
+        font-size: 12px;
+    }
+
+    .pop-list > li > img {
+        width: 25px;
+    }
+
+    .pop-list > li:nth-child(1) {
+        border-left: none;
+        border-right: none;
+        border-top: none;
+    }
+
+    .pop-list > li:nth-child(2) {
+        border-top: none;
+    }
+
+    .pop-list > li:nth-child(3) {
+        border-top: none;
+        border-left: none;
+        border-right: none;
+    }
+
+    /* ********** popup-img *********** */
+
+    .right-popup {
+        height: 460px;
+        padding: 75px 0 0 60px;
+    }
+
+    .right-img {
+        position: absolute;
+        right: 22px;
+        top: 18px;
+    }
+
+    .right-img > img {
+        width: 145px;
+    }
+
+    /***************** popup-btn *******************/
+
+    /* ********** chkPop *********** */
+
+    #chkPop {
+        color: #fff;
+        margin-top: 35px;
+    }
+
+    .close {
+        position: absolute;
+        top: 30px;
+        right: 42px;
+        color: #fff;
+        font-size: 35px;
+        cursor: pointer;
+        display: none;
+    }
+
+    .end {
+        position: absolute;
+        bottom: 25px;
+        right: 30px;
+        background: #266ff7;
+        border: none;
+        cursor: pointer;
+        display: block;
+    }
+
+    .end > p {
+        padding: 5px 20px 5px 20px;
+        color: #fff;
     }
 
 }
