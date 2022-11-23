@@ -17,6 +17,7 @@ $(document).ready(function() {
         touchEnabled : (navigator.maxTouchPoints > 0),
     });
 
+    
 
 //    $('.prev').click(function() {
 //     $('.a').animate({width: "toggle" }, 400);

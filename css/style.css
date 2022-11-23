@@ -136,7 +136,7 @@ header {
 .submenu-3 {
     width: 200px;
     background: #fff;
-    height: 250px;
+    height: 200px;
     box-shadow: 2px 2px 4px #ccc;
     display: none;
 }
@@ -1590,7 +1590,7 @@ header {
         top: 18px;
     }
 
-    .right-img > img {
+    .right-img > a > img {
         width: 145px;
     }
 
