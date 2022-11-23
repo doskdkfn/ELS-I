@@ -136,7 +136,7 @@ header {
 .submenu-3 {
     width: 200px;
     background: #fff;
-    height: 300px;
+    height: 250px;
     box-shadow: 2px 2px 4px #ccc;
     display: none;
 }
@@ -285,6 +285,7 @@ header {
     padding: 5px 5px;
     border-radius: 10px;
     color: rgb(133, 130, 130);
+    background: #fff;
 }
 
 .button:hover {
@@ -785,7 +786,7 @@ header {
     padding: 75px 0 0 60px;
 }
 
-.right-img > img {
+.right-img > a > img {
     width: 250px;
 }
 
@@ -798,7 +799,7 @@ header {
     margin-top: 20px;
 }
 
-.close {
+.closed {
     position: absolute;
     top: 18px;
     right: 30px;
@@ -1602,7 +1603,7 @@ header {
         margin-top: 35px;
     }
 
-    .close {
+    .closed {
         position: absolute;
         top: 30px;
         right: 42px;

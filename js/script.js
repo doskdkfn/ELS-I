@@ -11,7 +11,11 @@ $(document).ready(function() {
 
     /***************** pc - slide *****************/
 
-    $('#slide').bxSlider();
+    // $('#slide').bxSlider();
+    
+    $('#slide').bxSlider({
+        touchEnabled : (navigator.maxTouchPoints > 0),
+    });
 
 
 //    $('.prev').click(function() {
@@ -54,17 +58,34 @@ $(document).ready(function() {
     //     $('.m-submenu').slideToggle();
     // });
 
+    /******************** popup **********************/
+
     $('.pop').click(function() {
         $('#pop-back').fadeIn();
     });
 
-    $('.close').click(function() {
+    $('.closed').click(function() {
         $('#pop-back').hide();
     });
 
     $('.end').click(function() {
         $('#pop-back').hide();
     });
+
+    /******************** 팝업 하루 동안 열지 않음 **********************/
+
+    function setPopUpStart(obj) {
+		// 체크박스 체크시
+		if(obj.checked == true) {
+			let expireDate = new Date();
+            //쿠키 유효시간 한 달 설정
+			expireDate.setDay(expireDate.getDay()+1); 
+			// 쿠키 재설정
+			document.cookie =
+                "notShowPop=true;path=/;expires="+expireDate.toGMTString();
+			window.close();
+		}
+	}
 
 });
 
