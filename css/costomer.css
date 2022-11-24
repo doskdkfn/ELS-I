@@ -171,6 +171,33 @@ body {
     width: 150px;
 }
 
+/********************************** 제품 메뉴얼 북 ************************************/
+
+#menual-book {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.menual-thum {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.menual-thum > li {
+    cursor: pointer;
+}
+
+#big {
+    position: absolute;
+    top: 0;
+    right: 5px;
+}
+
+#big > img {
+    width: 1400px;
+}
+
 
 
 
