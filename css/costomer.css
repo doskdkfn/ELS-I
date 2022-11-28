@@ -450,17 +450,18 @@ body {
     .menual-list {
         margin-top: 40px;
         list-style: none;
-        display: flex;
+        display: block;
     }
 
     .menual-list > a > li {
-        font-size: 18px;
-        width: 240px;
+        font-size: 15px;
+        width: 365px;
         text-align: center;
+        padding: 20px 5px 50px 95px;
     }
 
     .menual-list > a > li > img {
-        width: 150px;
+        width: 200px;
     }
 
     /********************************** 제품 메뉴얼 북 ************************************/
@@ -477,8 +478,9 @@ body {
     }
 
     .thumb_item  {
-        width: 610px;
+        width: 450px;
         margin-left: 3px;
+        margin-top: 40px;
     }
 
     .menual-thum > li {
