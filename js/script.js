@@ -90,13 +90,20 @@ $(document).ready(function() {
 
     /********************************* 제품 메뉴얼 클릭 시 확대 ***********************************/
 
+    // $('.menual-thum').click(function() {
+    //     $('#big').empty();
+    //     var src = $(this).attr('src');
+    //     var fName = src.split('/');
+    //     $('#big').append('<img src="images/big-'+fName[1]+'">');
+    // });
+
     $('.thumb_item').click(function() {
-        $('#big').empty();
-        var src = $(this).attr('src');
-        var fName = src.split('/');
-        $('#big').append('<img src="images/big-'+fName[1]+'">');
+        $('#menual-back,#big,.munual-close').fadeIn();
     });
 
+    $('.xmark').click(function() {
+        $('#menual-back,#big').hide();
+    });
 });
 
 
