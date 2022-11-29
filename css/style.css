@@ -16,6 +16,13 @@ div ul {
     list-style: none;
 }
 
+@font-face {
+    src: url("../font/NanumSquareR.ttf");
+    /* src: url("../font/NanumSquareEB.ttf");
+    src: url("../font/NanumSquareL.ttf");
+    src: url("../font/NanumSquareR.ttf"); */
+    font-family: "나눔스퀘어";
+}
 
 body {
     font-family: "나눔스퀘어";
