@@ -73,50 +73,7 @@ $(document).ready(function () {
         $('#pop-back').hide();
     });
 
-    /******************** 팝업 하루 동안 열지 않음 **********************/
-
-    // function getCookie(name) {
-    //     var nameOfCookie = name + "=";
-    //     var x = 0;
-    //     while (x <= document.cookie.length) {
-    //         var y = (x + nameOfCookie.length);
-    //         if (document.cookie.substring(x, y) == nameOfCookie) {
-    //             if ((endOfCookie = document.cookie.indexOf(";", y)) == -1)
-    //                 endOfCookie = document.cookie.length;
-    //             return unescape(document.cookie.substring(y, endOfCookie));
-    //         }
-    //         x = document.cookie.indexOf(" ", x) + 1;
-    //         if (x == 0)
-    //             break;
-    //     }
-    //     return "";
-    // }
-
-    // function setPopUpStart(obj) {
-    //     // 체크박스 체크시
-    //     if (obj.checked == true) {
-    //         let expireDate = new Date();
-    //         //쿠키 유효시간 설정
-    //         setCookie("Notice", "done", 1);//1은 하루동안 새창을 열지 않게 합니다.
-    //         // 쿠키 재설정
-    //         document.cookie =
-    //             "notShowPop=true;path=/;expires=" + expireDate.toGMTString();
-    //         window.close();
-    //     }
-    // }
-
    
-    function setCookie(name, value, expiredays) {
-        var todayDate = new Date();
-        todayDate.setDate(todayDate.getDate() + expiredays);
-        document.cookie = name + "=" + escape(value) + "; path=/; expires=" + todayDate.toGMTString() + ";"
-    }
-
-    function closeWin() {
-        if (document.pop.Notice.checked)
-            setCookie("Notice", "done", 1);//1은 하루동안 새창을 열지 않게 합니다. 
-        window.close();
-    }
 
     /********************************* 제품 메뉴얼 클릭 시 확대 ***********************************/
 
