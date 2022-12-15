@@ -106,7 +106,7 @@ header {
     display: none;
     width: 200px;
     background: #fff;
-    height: 200px;
+    /* height: 200px; */
     box-shadow: 2px 2px 4px #ccc;
 }
 
@@ -122,6 +122,7 @@ header {
 .submenu>li {
     display: flex;
     justify-content: center;
+    padding: 5px;
 }
 
 .submenu>li>a {
@@ -144,7 +145,7 @@ header {
 .submenu-3 {
     width: 200px;
     background: #fff;
-    height: 200px;
+    /* height: 200px; */
     box-shadow: 2px 2px 4px #ccc;
     display: none;
 }
@@ -161,6 +162,7 @@ header {
 .submenu-3>li {
     display: flex;
     justify-content: center;
+    padding: 5px;
 }
 
 .submenu-3>li>a {

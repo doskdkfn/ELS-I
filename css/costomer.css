@@ -159,6 +159,7 @@ body {
     margin-top: 40px;
     list-style: none;
     display: flex;
+    align-items: flex-end;
 }
 
 .menual-list > a > li {
