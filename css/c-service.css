@@ -340,6 +340,55 @@ header {
     text-align: center;
 }
 
+/********************** title 출처보기 버튼 **********************/
+.ntitle {
+    background: rgb(64, 119, 202);
+    color: #fff;
+    padding: 5px;
+    width: 240px;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.ntitle:hover ~ .source {
+    display: block;
+}
+
+/********************** source(출처표기) **********************/
+
+.source {
+    width: 240px;
+    height: 172.7px;
+    background: rgba(0, 0, 0, 0.801);
+    color: #fff;
+    text-align: center;
+    line-height: 1.2;
+    padding: 10px;
+    position: absolute;
+    top: 420.5px;
+    left: 383px;
+    display: none;
+}
+
+.source > p {
+    font-size: 17px;
+    padding-top: 28px;
+}
+
+.source2 {
+    width: 240px;
+    height: 172.7px;
+    background: rgba(0, 0, 0, 0.801);
+    color: #fff;
+    text-align: center;
+    line-height: 1.2;
+    padding: 10px;
+    position: absolute;
+    top: 420.5px;
+    left: 383px;
+    display: none;
+}
 
 /************************************************* inquiry (문의) ********************************************/
 
