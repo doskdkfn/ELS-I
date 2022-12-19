@@ -234,7 +234,34 @@ body {
     cursor: pointer;
 }
 
+/********************************** 설치 동영상 ************************************/
 
+#install-video-box {
+    width: 1200px;
+    margin: 0 auto;
+    /* background: #f1f1f1; */
+}
+
+#install-video-box > h2 {
+    font-size: 23px;
+    font-weight: 800;
+    border-left: 5px solid #214ea1;
+    /* border-bottom: 3px solid #214ea1; */
+    width: 200px;
+    padding: 0 0 0 7px;
+    margin-top: 40px;
+}
+
+.install-video {
+    width: 900px;
+    margin: 0 auto;
+    /* background: #000; */
+}
+
+.install-video > video {
+    width: 900px;
+    margin-top: 50px;
+}
 
 
 
@@ -531,5 +558,35 @@ body {
         z-index: 3;
         color: #fff;
         cursor: pointer;
+    }
+
+    /********************************** 설치 동영상 ************************************/
+
+    #install-video-box {
+        width: 95%;
+        margin: 0 auto;
+        /* background: #f1f1f1; */
+    }
+
+    #install-video-box > h2 {
+        font-size: 20px;
+        font-weight: 800;
+        border-left: 5px solid #214ea1;
+        /* border-bottom: 3px solid #214ea1; */
+        width: 200px;
+        padding: 0 0 0 7px;
+        margin-top: 40px;
+    }
+
+    .install-video {
+        width: 900px;
+        margin: 0 auto;
+        /* background: #000; */
+    }
+
+    .install-video > video {
+        width: 475px;
+        height: 280px;
+        margin-top: 50px;
     }
 }

@@ -259,6 +259,33 @@ header {
     margin-top: 40px;
 }
 
+/***************************** gasrange-box (가스레인지 문의) ******************************/
+
+#gasrange-box {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.gas-img-text {
+    margin-top: 60px;
+    position: relative;
+}
+
+.gasrange-text {
+    background: #717377;
+    position: absolute;
+    width: 507px;
+    height: 400px;
+    right: 5px;
+    top: 100px;
+    line-height: 2;
+    color: #fff;
+    padding: 70px 0 0 80px;
+}
+
+.gasrange-text > p {
+    font-size: 19px;
+}
 /************************ c-notice-1 **********************/
 
 .c-notice-1 {
@@ -322,6 +349,10 @@ header {
 
 /********************** news **********************/
 
+#hover-item-box {
+    position: relative;
+}
+
 .news {
     display: flex;
     list-style: none;
@@ -341,6 +372,9 @@ header {
 }
 
 /********************** title 출처보기 버튼 **********************/
+
+/************** 첫번째 호버 ***************/
+
 .ntitle {
     background: rgb(64, 119, 202);
     color: #fff;
@@ -355,19 +389,25 @@ header {
     display: block;
 }
 
+/************** 두번째 호버 ***************/
+
+.ntitle:hover ~ .source2 {
+    display: block;
+}
+
 /********************** source(출처표기) **********************/
 
 .source {
     width: 240px;
     height: 172.7px;
-    background: rgba(0, 0, 0, 0.801);
+    background: rgba(0, 0, 0, 0.884);
     color: #fff;
     text-align: center;
     line-height: 1.2;
     padding: 10px;
     position: absolute;
-    top: 420.5px;
-    left: 383px;
+    top: 0.3px;
+    left: 20px;
     display: none;
 }
 
@@ -378,16 +418,26 @@ header {
 
 .source2 {
     width: 240px;
-    height: 172.7px;
-    background: rgba(0, 0, 0, 0.801);
+    height: 213.7px;
+    background: rgba(0, 0, 0, 0.884);
     color: #fff;
     text-align: center;
-    line-height: 1.2;
-    padding: 10px;
+    line-height: 1.5;
+    padding-top: 33px;
     position: absolute;
-    top: 420.5px;
-    left: 383px;
+    top: -0.5px;
+    left: 20px;
     display: none;
+}
+
+/*********************** sub-title ***********************/
+
+.sub-title {
+    font-size: 18px;
+    color: grey;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
 }
 
 /************************************************* inquiry (문의) ********************************************/
@@ -514,7 +564,7 @@ header {
         border-bottom: 1px solid;
     }
 
-    /************************ about-company **********************/
+    /************************ m - about-company **********************/
 
     .about-company {
         width: 100%;
@@ -525,7 +575,7 @@ header {
         font-size: 27px;
         font-weight: 500;
         border-bottom: 5px solid #214ea1;
-        width: 170px;
+        width: 250px;
         /* padding-bottom: 20px; */
     }
 
@@ -534,7 +584,7 @@ header {
         padding: 20px 0;
         font-size: 12px;
         text-align: right;
-        width: 240px;
+        width: 300px;
         height: 30px;
     }
 
@@ -554,7 +604,40 @@ header {
         margin-top: 40px;
     }
 
-    /************************ c-notice-1 **********************/
+    /***************************** gasrange-box (가스레인지 문의) ******************************/
+
+    #gasrange-box {
+        width: 88%;
+        margin: 0 auto;
+    }
+
+    .gasrange > img {
+        width: 350px;
+        height: 300px;
+    }
+
+    .gas-img-text {
+        margin-top: 60px;
+        position: relative;
+    }
+
+    .gasrange-text {
+        background: #717377;
+        position: absolute;
+        width: 300px;
+        height: 280px;
+        right: 5px;
+        top: 75px;
+        line-height: 2;
+        color: #fff;
+        padding: 30px 0 0 22px;
+    }
+
+    .gasrange-text > p {
+        font-size: 14px;
+    }
+
+    /************************  m - c-notice-1 **********************/
 
     .c-notice-1 {
         width: 475px;
@@ -599,12 +682,250 @@ header {
         margin-right: 15px;
     }
 
-    /************************************************* news-box ********************************************/
+    /************************************************* m - news-box ********************************************/
 
     #news-box {
-        width: 1200px;
+        width: 90%;
         margin: 0 auto;
     }
 
-    /********************** news **********************/
+    #news-box > h2 {
+        font-size: 20px;
+        font-weight: 800;
+        border-left: 5px solid #214ea1;
+        /* border-bottom: 3px solid #214ea1; */
+        width: 230px;
+        padding: 0 0 0 7px;
+        margin-top: 40px;
+        margin-bottom: 60px;
+    }
+
+    /********************** m - news **********************/
+
+    #hover-item-box {
+        position: relative;
+        width: 65%;
+        margin: 0 auto;
+    }
+
+    .news {
+        display: flex;
+        list-style: none;
+        margin-top: 30px;
+    }
+
+    .news > a {
+        padding-left: 20px;
+    }
+
+    .news > a > li > img {
+    width: 240px;
+    }
+
+    .news > a > li {
+        text-align: center;
+    }
+
+    /********************** title 출처보기 버튼 **********************/
+
+    /************** 첫번째 호버 ***************/
+
+    .ntitle {
+        background: rgb(64, 119, 202);
+        color: #fff;
+        padding: 5px;
+        width: 240px;
+        text-align: center;
+        cursor: pointer;
+        margin-left: 20px;
+    }
+
+    .ntitle:hover ~ .source {
+        display: block;
+    }
+
+    /************** 두번째 호버 ***************/
+
+    .ntitle:hover ~ .source2 {
+        display: block;
+    }
+
+    /********************** source(출처표기) **********************/
+
+    .source {
+        width: 240px;
+        height: 172.7px;
+        background: rgba(0, 0, 0, 0.884);
+        color: #fff;
+        text-align: center;
+        line-height: 1.2;
+        padding: 10px;
+        position: absolute;
+        top: 0.3px;
+        left: 20px;
+        display: none;
+    }
+
+    .source > p {
+        font-size: 17px;
+        padding-top: 28px;
+    }
+
+    .source2 {
+        width: 240px;
+        height: 213.7px;
+        background: rgba(0, 0, 0, 0.884);
+        color: #fff;
+        text-align: center;
+        line-height: 1.5;
+        padding-top: 33px;
+        position: absolute;
+        top: -0.5px;
+        left: 20px;
+        display: none;
+    }
+
+    /*********************** m - sub-title ***********************/
+
+    .sub-title {
+        font-size: 13px;
+        font-weight: bold;
+        color: grey;
+        margin: 30px;
+        display: flex;
+        justify-content: center;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /******************************** 모바일 메뉴 *********************************/
+
+    /***************** m-back *****************/
+
+    #m-back {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background: rgba(0, 0, 0, 0.75);
+        z-index: 10;
+        display: none;
+    }
+
+    #m-header {
+        margin-top: 12px;
+    }
+
+    #m-menu {
+        background: rgb(255, 255, 255);
+        position: absolute;
+        width: 250px;
+        height: 1155px;
+        top: 0;
+        right: 0;
+        z-index: 11;
+        display: block;
+        right: -100%;
+    }
+
+    #m-open {
+        display: block;
+        position: absolute;
+        right: 0;
+        bottom: -34px;
+    }
+
+    #m-open > img {
+        width: 43px;
+    }
+
+    /***************** title *****************/
+
+    .title {
+        display: flex;
+        border-bottom: 1px solid #ccc;
+        width: 250px;
+        padding-bottom: 5px;
+        color: #214ea1;
+    }
+
+    .title > h2 {
+        font-size: 17px;
+        font-weight: 900;
+        margin: 15px 147px 0 13px;
+    }
+
+    .close > img {
+        width: 40px;
+        text-align: right;
+        margin-top: 3px;
+    }
+
+    /***************** m-gnb *****************/
+
+    #m-gnb {
+        list-style: none;
+        width: 230px;
+    }
+
+    #m-gnb > li {
+        border-bottom: 1px solid #ccc;
+        width: 250px;
+        cursor: pointer;
+    }
+
+    .m-gnb-2 {
+        font-size: 14px;
+        font-weight: bold;
+        padding: 25px 0 0 15px;
+        padding-bottom: 5px;
+    }
+
+    .down {
+        font-size: 15px;
+        position: absolute;
+        right: 15px;
+        transition-duration: (0, -50%);
+    }
+
+    .up {
+        font-size: 15px;
+        position: absolute;
+        right: 15px;
+        display: none;
+    }
+
+    /***************** m-submenu *****************/
+
+   
+    .m-submenu {
+        display: none;
+    }
+
+    .m-submenu > li {
+        background: #f1f1f1;
+        padding: 8px 5px 8px 23px;
+    }
+
+    .m-submenu > li > a {
+        font-size: 12px;
+        font-weight: bold;
+    }
+
 }

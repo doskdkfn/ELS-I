@@ -1230,8 +1230,8 @@ body {
     /************************* m - install-text ******************************/
 
     .li {
-    text-align: center;
-    list-style: none;
+        text-align: center;
+        list-style: none;
     }
 
     .li > li {
