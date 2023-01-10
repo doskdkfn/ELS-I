@@ -11,28 +11,13 @@ $(document).ready(function () {
 
     /***************** pc - slide *****************/
 
-    // $('#slide').bxSlider();
-
-    $('#slide').bxSlider({
-        touchEnabled: (navigator.maxTouchPoints > 0),
-    });
+    // $('#slide').bxSlider({
+    //     touchEnabled: (navigator.maxTouchPoints > 0),
+    // });
 
 
+   
 
-    //    $('.prev').click(function() {
-    //     $('.a').animate({width: "toggle" }, 400);
-    //    });
-
-    //    $('.next').click(function() {
-    //     $('.a').animate({width: "toggle" }, 400);
-    //    });
-
-    // var idx = 0;
-    // setInterval(function() {
-    //     $('#slide > .a').eq(idx).animate({left:'-100%'}, 400).animate({left:'-100%'}, 0);
-    //     idx==2?idx=0:idx++;
-    //     $('#slide > .a').eq(idx).animate({left:0}, 400);
-    // }, 3000);
 
 
     /************* mobile-open & close ************/
@@ -73,7 +58,7 @@ $(document).ready(function () {
         $('#pop-back').hide();
     });
 
-   
+
 
     /********************************* 제품 메뉴얼 클릭 시 확대 ***********************************/
 

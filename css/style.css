@@ -212,6 +212,35 @@ header {
     display: flex;
 }
 
+/**********************************/
+
+/* 변경된 슬라이드 */
+
+.swiper {
+    width: 1400px;
+    height: 690px;
+    overflow: hidden;
+    position: absolute;
+    display: flex;
+}
+
+/* 변경된 슬라이드 */
+
+.swiper-slide {
+    display: block;
+    position: relative;
+    left: 0;
+}
+
+.swiper-slide:first-child {
+    left: 0;
+}
+
+
+
+
+/**********************************/
+
 .slider {
     display: block;
 }
@@ -922,6 +951,14 @@ header {
     }
 
 
+    /* .swiper-button-prev {
+        display: none;
+    }
+
+    .swiper-button-next {
+        display: none;
+    } */
+
     /***************** m - product *****************/
 
     #product {
@@ -941,6 +978,18 @@ header {
         border-bottom: 5px solid #214ea1;
         width: 150px;
         margin-bottom: 25px;
+    }
+
+    /***************** swiper-arrow *****************/
+
+    .swiper-button-next:after, .swiper-button-prev:after {
+        font-family: swiper-icons;
+        font-size: var(--swiper-navigation-size);
+        text-transform: none!important;
+        letter-spacing: 0;
+        font-variant: initial;
+        line-height: 1;
+        display: none;
     }
 
     /***************** gaslock *****************/
@@ -1507,6 +1556,7 @@ header {
         position: absolute;
         top: 130px;
         margin-left: 2.5%;
+        z-index: 5;
     }
 
     #left-right {

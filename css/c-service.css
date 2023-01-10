@@ -353,6 +353,14 @@ header {
     position: relative;
 }
 
+.hover-box {
+    display: flex;
+}
+
+.hover-box2 {
+    display: flex;
+}
+
 .news {
     display: flex;
     list-style: none;
@@ -373,7 +381,7 @@ header {
 
 /********************** title 출처보기 버튼 **********************/
 
-/************** 첫번째 호버 ***************/
+/************** 첫번째 호버 (신제품 관련 기사) ***************/
 
 .ntitle {
     background: rgb(64, 119, 202);
@@ -389,14 +397,25 @@ header {
     display: block;
 }
 
-/************** 두번째 호버 ***************/
+.ntitle:hover ~ .source1-2 {
+    display: block;
+}
+
+/************** 두번째 호버 (제품 사고 기사) ***************/
 
 .ntitle:hover ~ .source2 {
     display: block;
 }
 
+.ntitle:hover ~ .source2-1 {
+    display: block;
+}
+
 /********************** source(출처표기) **********************/
 
+/*********** 첫번째 기사 (신제품 관련) ***********/
+
+/****** 첫번째 소스 (신제품 관련) ******/
 .source {
     width: 240px;
     height: 172.7px;
@@ -406,7 +425,7 @@ header {
     line-height: 1.2;
     padding: 10px;
     position: absolute;
-    top: 0.3px;
+    top: 29.3px;
     left: 20px;
     display: none;
 }
@@ -415,6 +434,31 @@ header {
     font-size: 17px;
     padding-top: 28px;
 }
+
+/****** 두번째 소스 (신제품 관련) ******/
+
+.source1-2 {
+    width: 240px;
+    height: 172.7px;
+    background: rgba(0, 0, 0, 0.884);
+    color: #fff;
+    text-align: center;
+    line-height: 1.2;
+    padding: 10px;
+    position: absolute;
+    top: 29.3px;
+    left: 280px;
+    display: none;
+}
+
+.source1-2 > p {
+    font-size: 17px;
+    padding-top: 28px;
+}
+
+/*********** 첫번째 기사 (제품 사고 기사) ***********/
+
+/****** 첫번째 소스 (제품 사고 기사) ******/
 
 .source2 {
     width: 240px;
@@ -425,8 +469,24 @@ header {
     line-height: 1.5;
     padding-top: 33px;
     position: absolute;
-    top: -0.5px;
+    top: 29.5px;
     left: 20px;
+    display: none;
+}
+
+/****** 두번째 소스 (제품 사고 기사) ******/
+
+.source2-1 {
+    width: 240px;
+    height: 213.7px;
+    background: rgba(0, 0, 0, 0.884);
+    color: #fff;
+    text-align: center;
+    line-height: 1.5;
+    padding-top: 33px;
+    position: absolute;
+    top: 29.5px;
+    left: 280px;
     display: none;
 }
 
@@ -438,6 +498,15 @@ header {
     margin: 30px;
     display: flex;
     justify-content: center;
+}
+
+.sub-title-m {
+    font-size: 18px;
+    color: grey;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    display: none;
 }
 
 /************************************************* inquiry (문의) ********************************************/
@@ -708,18 +777,30 @@ header {
         margin: 0 auto;
     }
 
+    .hover-box {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .hover-box2 {
+        display: flex;
+        justify-content: center;
+    }
+
+
     .news {
         display: flex;
         list-style: none;
         margin-top: 30px;
+        justify-content: center
     }
 
     .news > a {
-        padding-left: 20px;
+        padding: 0 6px 0 6px
     }
 
     .news > a > li > img {
-    width: 240px;
+        width: 220px;
     }
 
     .news > a > li {
@@ -734,10 +815,10 @@ header {
         background: rgb(64, 119, 202);
         color: #fff;
         padding: 5px;
-        width: 240px;
+        width: 220px;
         text-align: center;
         cursor: pointer;
-        margin-left: 20px;
+        margin-left: 6px;
     }
 
     .ntitle:hover ~ .source {
@@ -752,43 +833,98 @@ header {
 
     /********************** source(출처표기) **********************/
 
+    /*********** 첫번째 기사 (신제품 관련) ***********/
+
+    /****** 첫번째 소스 (신제품 관련) ******/
+
     .source {
-        width: 240px;
-        height: 172.7px;
+        width: 220px;
+        height: 158.7px;
         background: rgba(0, 0, 0, 0.884);
         color: #fff;
         text-align: center;
         line-height: 1.2;
         padding: 10px;
         position: absolute;
-        top: 0.3px;
-        left: 20px;
+        top: 30.3px;
+        left: 31px;
         display: none;
     }
 
     .source > p {
-        font-size: 17px;
+        font-size: 15px;
         padding-top: 28px;
     }
 
+    /****** 두번째 소스 (신제품 관련) ******/
+
+    .source1-2 {
+        width: 220px;
+        height: 158.7px;
+        background: rgba(0, 0, 0, 0.884);
+        color: #fff;
+        text-align: center;
+        line-height: 1.2;
+        padding: 10px;
+        position: absolute;
+        top: 29.3px;
+        left: 280px;
+        display: none;
+    }
+    
+    .source1-2 > p {
+        font-size: 15px;
+        padding-top: 28px;
+    }
+
+    /*********** 첫번째 기사 (제품 사고 기사) ***********/
+
+    /****** 첫번째 소스 (제품 사고 기사) ******/
+
     .source2 {
-        width: 240px;
-        height: 213.7px;
+        width: 220px;
+        height: 195px;
         background: rgba(0, 0, 0, 0.884);
         color: #fff;
         text-align: center;
         line-height: 1.5;
         padding-top: 33px;
         position: absolute;
-        top: -0.5px;
-        left: 20px;
+        top: 29.5px;
+        left: -84px;
+        display: none;
+    }
+
+    /****** 두번째 소스 (제품 사고 기사) ******/
+
+    .source2-1 {
+        width: 220px;
+        height: 195px;
+        background: rgba(0, 0, 0, 0.884);
+        color: #fff;
+        text-align: center;
+        line-height: 1.5;
+        padding-top: 33px;
+        position: absolute;
+        top: 30.5px;
+        left: 148px;    
         display: none;
     }
 
     /*********************** m - sub-title ***********************/
 
     .sub-title {
-        font-size: 13px;
+        font-size: 12px;
+        font-weight: bold;
+        color: grey;
+        margin: 30px;
+        display: flex;
+        justify-content: center;
+        display: none;
+    }
+
+    .sub-title-m {
+        font-size: 12px;
         font-weight: bold;
         color: grey;
         margin: 30px;
