@@ -288,46 +288,27 @@ header {
 }
 /************************ c-notice-1 **********************/
 
-.c-notice-1 {
+.c-table {
     width: 1200px;
-    display: flex;
-    border-top: 1px solid #aaa;
-    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+    border-collapse: collapse;
 }
 
-.c-notice-1 > li {
-    /* width: 1200px; */
-    display: block;
-    font-size: 19px;
-    font-weight: normal;
-    /* border-top: 1px solid #aaa; */
-    /* border-bottom: 1px solid #aaa; */
-    padding: 15px 0 15px 0;
+.tr {
+    border-bottom: 1px solid #ccc;
 }
 
-.c-notice-1:hover {
-    background: rgb(240, 236, 236);
+.c-table th {
+    padding-bottom: 15px;
 }
 
-.left-text {
-    width: 2180px;
-    margin-left: 70px;
+.c-table td {
+    padding: 5px;
 }
 
-.right-text {
-    /* text-align: right; */
-    width: 400px;
-    color: grey;
-}
-
-.right-text > p {
-    font-size: 18px;
-}
-
-.left-text > img {
+.c-table td > img {
     width: 40px;
-    vertical-align: middle;
-    margin-right: 15px;
 }
 
 /************************************************* news-box ********************************************/
