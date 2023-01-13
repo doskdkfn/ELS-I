@@ -293,10 +293,19 @@ header {
     margin: 0 auto;
     text-align: center;
     border-collapse: collapse;
+    cursor: pointer;
 }
 
 .tr {
     border-bottom: 1px solid #ccc;
+}
+
+.tr:hover {
+    background: rgb(240, 236, 236);
+}
+
+.tr:first-child:hover {
+    background:#fff;
 }
 
 .c-table th {
@@ -310,6 +319,89 @@ header {
 .c-table td > img {
     width: 40px;
 }
+
+/************************************************* faq ********************************************/
+
+.faq-table {
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    border-collapse: collapse;
+    cursor: pointer;
+}
+
+.faq-tr {
+    border-bottom: 1px solid #ccc;
+}
+
+.faq-tr:hover {
+    background: rgb(240, 236, 236);
+}
+
+.faq-tr:first-child:hover {
+    background:#fff;
+}
+
+.faq-table th {
+    padding-bottom: 15px;
+}
+
+.faq-table td {
+    padding: 15px;
+}
+
+.faq-table td > img {
+    width: 40px;
+}
+
+.num {
+    font-weight: bold;
+}
+
+/****************************** faq 첫번째 **************************/
+
+#battery-box {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.battery img {
+    width: 640px
+}
+
+.battery-img-text {
+    margin-top: 60px;
+    position: relative;
+}
+
+.battery-text {
+    background: #717377;
+    position: absolute;
+    width: 507px;
+    height: 400px;
+    right: 5px;
+    top: 100px;
+    line-height: 2;
+    color: #fff;
+    padding: 70px 0 0 35px;
+}
+
+.q {
+    font-weight: bold;
+    font-size: 25px;
+    margin-right: 5px;
+}
+
+.p {
+    font-size: 18px;
+    padding-top: 15px;
+    line-height: 1.5;
+}
+
+.b-text {
+    display: flex;
+}
+
 
 /************************************************* news-box ********************************************/
 
@@ -676,7 +768,7 @@ header {
         position: absolute;
         width: 280px;
         height: 260px;
-        right: 5px;
+        right: 0px;
         top: 100px;
         line-height: 2;
         color: #fff;
@@ -689,48 +781,88 @@ header {
 
     /************************  m - c-notice-1 **********************/
 
-    .c-notice-1 {
-        width: 475px;
+    .c-table {
+        width: 100%;
         margin: 0 auto;
-        display: flex;
-        border-top: 1px solid #aaa;
-        align-items: center;
+        text-align: center;
+        border-collapse: collapse;
+        cursor: pointer;
     }
-
-    .c-notice-1 > li {
-        /* width: 1200px; */
-        display: block;
-        font-size: 13px;
-        font-weight: bold;
-        /* border-top: 1px solid #aaa; */
-        /* border-bottom: 1px solid #aaa; */
-        padding: 15px 0 15px 0;
+    
+    .tr {
+        border-bottom: 1px solid #ccc;
     }
-
-    .c-notice-1:hover {
+    
+    .tr:hover {
         background: rgb(240, 236, 236);
     }
-
-    .left-text {
-        width: 2180px;
-        margin-left: 10px;
+    
+    .tr:first-child:hover {
+        background:#fff;
+    }
+    
+    .c-table th {
+        padding-bottom: 15px;
+        font-size: 15px;
+    }
+    
+    .c-table td {
+        padding: 5px;
+        font-size: 13px;
+    }
+    
+    .c-table td > img {
+        width: 35px;
     }
 
-    .right-text {
-        /* text-align: right; */
-        width: 400px;
-        color: grey;
+    /**************************************** faq (자주 묻는 질문) ***********************************/
+
+    /****************************** faq 첫번째 **************************/
+
+    #battery-box {
+        width: 88%;
+        margin: 0 auto;
     }
 
-    .right-text > p {
-        font-size: 11px;
+    .battery > img {
+        width: 290px;
+        height: 300px;
     }
 
-    .left-text > img {
-        width: 30px;
-        vertical-align: middle;
-        margin-right: 15px;
+    .battery-img-text {
+        margin-top: 60px;
+        position: relative;
     }
+
+    .battery-text {
+        background: #717377;
+        position: absolute;
+        width: 340px;
+        height: 260px;
+        right: 0px;
+        top: 100px;
+        line-height: 2;
+        color: #fff;
+        padding: 35px 0 0 15px;
+    }
+
+    .q {
+        font-weight: bold;
+        font-size: 15px;
+        margin-right: 5px;
+    }
+
+    .p {
+        font-size: 13px;
+        padding-top: 7px;
+        line-height: 1.5;
+    }
+
+    .b-text {
+        display: flex;
+    }
+
+    /****************************** faq 두번째 **************************/
 
     /************************************************* m - news-box ********************************************/
 
