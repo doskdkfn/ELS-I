@@ -190,7 +190,7 @@ header {
 }
 
 #banner>a>img {
-    width: 2560px;
+    width: 100%;
     margin-top: 10px;
 }
 
@@ -1002,7 +1002,8 @@ header {
     #gaslock>li {
         display: block;
         background: #fff;
-        width: 480px;
+        max-width: 100%;
+        min-width: 0%;
         height: 200px;
         margin: 0 0 7px 2px;
         border-top-left-radius: 0;
@@ -1032,12 +1033,14 @@ header {
     }
 
     #gaslock img {
-        width: 130px;
-        height: 125px;
-        /* margin: 20px 320px; */
+        width: 125px;
+        height: 120px;
+        /* margin: 20px 75px; */
         position: absolute;
-        right: -33px;
-        top: 21px;
+        /* right: -33px;
+        top: 21px; */
+        right: 0%;
+        top: 12%;
     }
 
     /***************** text-box *****************/
@@ -1141,7 +1144,7 @@ header {
     }
 
     .notice-1>h4 {
-        width: 90px;
+        width: 100px;
         font-size: 20px;
         font-weight: 700;
         border-bottom: 5px solid #214ea1;
@@ -1156,7 +1159,7 @@ header {
         padding: 5px 5px;
         border-radius: 10px;
         color: rgb(133, 130, 130);
-        margin-left: 250px;
+        margin-left: 135px;
         margin-top: 20px;
     }
 
@@ -1178,7 +1181,7 @@ header {
 
     .num {
         list-style: none;
-        margin-left: 170px;
+        margin-left: 65px;
     }
 
     /***************** guide *****************/
@@ -1210,13 +1213,13 @@ header {
     .guide-1>li>a>img {
         width: 210px;
         position: absolute;
-        right: -102px;
+        right: -115px;
         top: 22px;
     }
 
     .guide-1>li>a>p {
         position: absolute;
-        right: 46px;
+        right: 34px;
         top: 73%;
         font-size: 15px;
         font-weight: 700;
@@ -1238,13 +1241,13 @@ header {
     .guide-2>li>a>img {
         width: 210px;
         position: absolute;
-        right: 33px;
+        right: 23px;
         top: 20px;
     }
 
     .guide-2>li>a>p {
         position: absolute;
-        right: 37px;
+        right: 30px;
         top: 71%;
         font-size: 15px;
         font-weight: 700;
@@ -1268,12 +1271,12 @@ header {
         width: 210px;
         position: absolute;
         top: 21px;
-        right: -100px;
+        right: -110px;
     }
 
     .guide-3>li>a>p {
         position: absolute;
-        right: 38px;
+        right: 23px;
         top: 70%;
         font-size: 15px;
         font-weight: 700;
@@ -1369,6 +1372,7 @@ header {
         list-style: none;
         width: 100%;
         margin-left: 0px;
+        column-gap: 1.1rem;
     }
 
     .company {
@@ -1377,11 +1381,15 @@ header {
 
     .footer-menu>li {
         display: block;
-        padding: 0 3px 0 15px;
+        padding: 0 0 0 0;
+    }
+
+    .footer-menu>li>a {
+        font-size: 13px;
     }
 
     .manager {
-        margin-left: 100px;
+        margin-left: 30px;
     }
 
     /***************** footer - logo *****************/
@@ -1408,13 +1416,13 @@ header {
 
     .info {
         list-style: none;
-        margin-left: 14px;
+        margin-left: 0px;
         text-align: center;
     }
 
     .info>li {
         line-height: 25px;
-        font-size: 15px;
+        font-size: 14px;
     }
 
     /***************** top - btn *****************/
@@ -1423,6 +1431,7 @@ header {
         right: 15px;
         bottom: -20px;
         position: fixed;
+        z-index: 3;
     }
 
     .top-btn>a>img {
@@ -1551,11 +1560,13 @@ header {
 
     #pop-back {
         background: url(../images/pop-back.png);
-        width: 460px;
+        max-width: 100%;
+        /* width: 460px; */
         height: 600px;
         position: absolute;
         top: 130px;
-        margin-left: 2.5%;
+        margin-left: 0%;
+        /* margin-left: 2.5%; */
         z-index: 5;
     }
 
@@ -1595,7 +1606,7 @@ header {
     }
 
     .pop-text-bot {
-        padding: 105px 0 0 30px;
+        padding: 105px 0 0 0;
     }
 
     /*********** popup-list ************/
@@ -1648,7 +1659,8 @@ header {
 
     .right-img {
         position: absolute;
-        right: 22px;
+        right: 10px;
+        /* right: 22px; */
         top: 18px;
     }
 
