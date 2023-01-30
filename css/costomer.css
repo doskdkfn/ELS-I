@@ -133,39 +133,6 @@ body {
     font-size: 17px;
 }
 
-/********************************** 제품 메뉴얼 ************************************/
-
-/* #menual-box {
-    width: 1200px;
-    margin: 0 auto;
-}
-
-#menual-box > h2 {
-    font-size: 23px;
-    font-weight: 800;
-    border-left: 5px solid #214ea1;
-    width: 200px;
-    padding: 0 0 0 7px;
-    margin-top: 40px;
-}
-
-.menual-list {
-    margin-top: 40px;
-    list-style: none;
-    display: flex;
-    align-items: flex-end;
-}
-
-.menual-list > a > li {
-    font-size: 18px;
-    width: 240px;
-    text-align: center;
-}
-
-.menual-list > a > li > img {
-    width: 150px;
-} */
-
 /********************************** 제품 메뉴얼 (NEW) 전자식 타이머콕 ************************************/
 
 #menual {
@@ -207,7 +174,7 @@ body {
 }
 
 .menual-table td > a {
-    padding: 0 80px 0 80px;
+    padding: 0px 30px 0 30px;
 }
 
 .menual-table td > img {
@@ -254,7 +221,7 @@ body {
 }
 
 .menual-table2 td > a {
-    padding: 0 80px 0 80px;
+    padding: 0px 30px 0 30px;
 }
 
 .menual-table2 td > img {
@@ -363,6 +330,39 @@ body {
 .down-text {
     color: #fff;
     font-weight: bold;
+}
+
+/********************************** 설치 동영상 ************************************/
+
+#menual-box {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#menual-box > h2 {
+    font-size: 23px;
+    font-weight: 800;
+    border-left: 5px solid #214ea1;
+    width: 200px;
+    padding: 0 0 0 7px;
+    margin-top: 40px;
+}
+
+.menual-list {
+    margin-top: 40px;
+    list-style: none;
+    display: flex;
+    align-items: flex-end;
+}
+
+.menual-list > a > li {
+    font-size: 18px;
+    width: 240px;
+    text-align: center;
+}
+
+.menual-list > a > li > img {
+    width: 150px;
 }
 
 
