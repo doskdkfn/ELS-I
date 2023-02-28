@@ -307,7 +307,7 @@ body {
         color: #fff;
         font-size: 13px;
         top: 50%;
-        right: 24%;
+        right: 14%;
     }
 
     /************************ m - about-box **********************/
@@ -365,26 +365,29 @@ body {
 
     .about-box {
         display: flex;
+        width: 96%;
+        margin: 0 auto;
     }
 
     .company-img > img {
         margin-top: 150px;
         border-radius: 20px;
         box-shadow: 10px 10px 10px #ccc;
-        margin-left: 22px;
-        width: 400px;
+        margin-left: 0px;
+        /* width: 400px; */
+        width: 340px;
     }
 
 
     /************************ company-box **********************/
 
     .company-box {
-        width: 345px;
+        width: 340px;
         height: 300px;
         background-color: #214ea1;
         position: relative;
         z-index: 1;
-        left: -63%;
+        left: -74%;
         margin-top: 410px;
         border-radius: 20px;
     }
@@ -392,7 +395,7 @@ body {
     .logo-text {
         position: absolute;
         top: -123%;
-        right: 28%;
+        left: auto;
         text-align: left;
         border-top-right-radius: 20px;
         border-top-left-radius: 20px;

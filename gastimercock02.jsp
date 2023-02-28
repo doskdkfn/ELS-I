@@ -75,7 +75,7 @@
                 <div class="about-company">
                     <h2>기계식타이머콕</h2>
                 </div>
-                <div class="icon"><a href="index.jsp"><i class="fa-solid fa-house-chimney home"></i></a> <i class="fa-solid fa-caret-right"></i> <a href="gastimercock01.html">제품소개</a> <i class="fa-solid fa-caret-right"></i> 기계식타이머콕</div>
+                <div class="icon"><a href="index.jsp"><i class="fa-solid fa-house-chimney home"></i></a> <i class="fa-solid fa-caret-right"></i> <a href="gastimercock01.jsp">제품소개</a> <i class="fa-solid fa-caret-right"></i> 기계식타이머콕</div>
             </div>
         </div>
         <div id="timer-page-btn">

@@ -77,9 +77,9 @@
                     <h2>FAQ (자주 묻는 질문)</h2>
                 </div>
                 <div class="icon"><a href="index.jsp"><i class="fa-solid fa-house-chimney home"></i></a>
-                    <i class="fa-solid fa-caret-right"></i> 고객서비스
-                    <i class="fa-solid fa-caret-right"></i> 공지사항
-                    <i class="fa-solid fa-caret-right"></i> FAQ
+                    <i class="fa-solid fa-caret-right"></i> <a href="c-notice.jsp">고객서비스</a>
+                    <i class="fa-solid fa-caret-right"></i> <a href="faq.jsp">FAQ</a>
+                    <i class="fa-solid fa-caret-right"></i> 질문1
                 </div>
             </div>
         </div>

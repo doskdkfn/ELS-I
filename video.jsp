@@ -76,7 +76,7 @@
                 <div class="about-company">
                     <h2>설치 동영상</h2>
                 </div>
-                <div class="icon"><a href="index.jsp"><i class="fa-solid fa-house-chimney home"></i></a> <i class="fa-solid fa-caret-right"></i> 자료실 <i class="fa-solid fa-caret-right"></i> 설치 동영상</div>
+                <div class="icon"><a href="index.jsp"><i class="fa-solid fa-house-chimney home"></i></a> <i class="fa-solid fa-caret-right"></i> <a href="menual.jsp">자료실</a> <i class="fa-solid fa-caret-right"></i> 설치 동영상</div>
             </div>
         </div>
         <div id="menual-box">

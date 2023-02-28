@@ -77,8 +77,8 @@
                     <h2>가스레인지 소음 문의</h2>
                 </div>
                 <div class="icon"><a href="index.jsp"><i class="fa-solid fa-house-chimney home"></i></a>
-                    <i class="fa-solid fa-caret-right"></i> 고객서비스
-                    <i class="fa-solid fa-caret-right"></i> 공지사항
+                    <i class="fa-solid fa-caret-right"></i> <a href="c-notice.jsp">고객서비스</a>
+                    <i class="fa-solid fa-caret-right"></i> <a href="c-notice.jsp">공지사항</a>
                     <i class="fa-solid fa-caret-right"></i> 문의
                 </div>
             </div>

@@ -12,6 +12,7 @@
         <script src="js/script.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
         <script src="https://kit.fontawesome.com/7ce992cc35.js" crossorigin="anonymous"></script>
+        <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
     </head>
     
     <body>

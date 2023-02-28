@@ -78,7 +78,7 @@
                     <h2>설치 동영상</h2>
                 </div>
                 <div class="icon"><a href="index.jsp"><i class="fa-solid fa-house-chimney home"></i></a> <i
-                        class="fa-solid fa-caret-right"></i> 자료실 <i class="fa-solid fa-caret-right"></i> 설치 동영상
+                        class="fa-solid fa-caret-right"></i> <a href="menual.jsp">자료실</a> <i class="fa-solid fa-caret-right"></i> <a href="video.jsp">설치 동영상</a>
                         <i class="fa-solid fa-caret-right"></i> NGT - 300
                 </div>
             </div>

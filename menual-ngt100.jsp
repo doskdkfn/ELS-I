@@ -78,7 +78,7 @@
                     <h2>NGT - 100</h2>
                 </div>
                 <div class="icon"><a href="index.jsp"><i class="fa-solid fa-house-chimney home"></i></a> <i
-                        class="fa-solid fa-caret-right"></i> 자료실 <i class="fa-solid fa-caret-right"></i> 제품메뉴얼
+                        class="fa-solid fa-caret-right"></i><a href="menual.jsp">자료실</a> <i class="fa-solid fa-caret-right"></i><a href="menual.jsp">제품메뉴얼</a>
                     <i class="fa-solid fa-caret-right"></i> NGT - 100</div>
             </div>
         </div>
@@ -94,6 +94,16 @@
         </div>
         <div id="big">
             <img src="images/ngt-100.big.png" alt="">
+        </div>
+        <div id="down-box">
+            <div class="down">
+                <img src="images/ngt-100.pdf" class="down-img" alt="save the earth">
+                <div class="down-btn">
+                    <a href="images/ngt-100.pdf" class="a-tag" download="ngt-100">
+                        <img src="images/download-btn.png" class="img"><p class="down-text">내려받기</p>
+                    </a>
+                </div>
+            </div>
         </div>
     </section>
     <footer>

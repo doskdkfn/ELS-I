@@ -166,7 +166,7 @@
                 <h2>동영상 설치방법</h2>
                 <div id="install-video">
                     <div class="video">
-                        <video src="video/install-video.mp4" controls></video>
+                        <video src="" controls></video>
                     </div>
                 </div>
             </div>

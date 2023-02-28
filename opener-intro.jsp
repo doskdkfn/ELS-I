@@ -76,7 +76,7 @@
                     <h2>캔따병따</h2>
                 </div>
                 <div class="icon"><a href="index.jsp"><i class="fa-solid fa-house-chimney home"></i></a> <i
-                        class="fa-solid fa-caret-right"></i> 제품소개 <i class="fa-solid fa-caret-right"></i> 안전캔따개
+                        class="fa-solid fa-caret-right"></i> <a href="gastimercock01.jsp">제품소개</a> <i class="fa-solid fa-caret-right"></i> <a href="opener.jsp">안전캔따개</a>
                     <i class="fa-solid fa-caret-right"></i> 캔따병따</div>
             </div>
         </div>
